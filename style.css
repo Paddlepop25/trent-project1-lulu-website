@@ -2,9 +2,9 @@
   color: black;
 }
 
-.parallax { 
+.parallax {
   background-image: url("concert04.jpg");
-  height: 500px; 
+  height: 300px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
