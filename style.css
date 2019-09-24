@@ -1,0 +1,28 @@
+.socialmedia a i {
+  color: black;
+}
+
+.parallax { 
+  background-image: url("concert04.jpg");
+  height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lifeinpics .container-fluid .row .lifemobilerow img {
+  width: 500px;
+}
+
+.lifeinpics .container-fluid .row .tabletmobilerow img {
+  width: 500px;
+}
+
+/* .container {
+  background: red;
+} */
+
+/* table {
+  background: red;
+} */
