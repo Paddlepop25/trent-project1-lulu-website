@@ -3,7 +3,7 @@
 }
 
 .parallax {
-  background-image: url("concert04.jpg");
+  background-image: url("/images/concert04.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -12,12 +12,40 @@
 }
 
 .lifeinpics .container-fluid .row .lifemobilerow img {
-  width: 500px;
+  width: 300px;
 }
 
 .lifeinpics .container-fluid .row .tabletmobilerow img {
-  width: 500px;
+  width: 300px;
 }
+
+.musicmobileview img {
+  width: 200px;
+  border-radius: 50%;
+  border: none;
+}
+
+.musictabletview img {
+  width: 200px;
+  border-radius: 50%;
+  border: none;
+}
+#footer {
+  height: 100px;
+  background-color: rgb(194, 193, 193);
+}
+
+#footer .container .socialmedia {
+  display: flex;
+  justify-content: center;
+}
+
+#footer .container .footer-text {
+  display: flex;
+  justify-content: center;
+}
+
+
 
 /* .container {
   background: red;
