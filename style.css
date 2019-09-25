@@ -1,5 +1,21 @@
+body {
+  background-image: url("/images/darkwallpaper1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+
 .socialmedia a i {
   color: black;
+}
+
+.table {
+  text-align: center;
+}
+
+.table .tix {
+  width: 200px;
+  margin-right: 20px;
 }
 
 .parallax {
@@ -11,12 +27,14 @@
   background-size: cover;
 }
 
-.lifeinpics .container-fluid .row .lifemobilerow img {
-  width: 300px;
+.lifeinpics .lifemobilerow {
+  width: 600px;
+  align-items: center;
 }
 
-.lifeinpics .container-fluid .row .tabletmobilerow img {
-  width: 300px;
+.lifeinpics .tabletmobilerow {
+  width: 600px;
+  align-items: center;
 }
 
 .musicmobileview img {
@@ -30,8 +48,9 @@
   border-radius: 50%;
   border: none;
 }
+
 #footer {
-  height: 100px;
+  height: 200px;
   background-color: rgb(194, 193, 193);
 }
 
@@ -44,8 +63,6 @@
   display: flex;
   justify-content: center;
 }
-
-
 
 /* .container {
   background: red;
