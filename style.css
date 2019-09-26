@@ -2,11 +2,77 @@ body {
   background-image: url("/images/darkwallpaper1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: whitesmoke;
+  color: #ffffff;
+}
+
+.navbar-custom { 
+  background-color: #ffffff !important; 
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #000000;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ed7d33;
+}
+
+.navbar-brand img {
+  width: 70px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-nav .dropdown-menu {
+  text-align: center;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  color: #ed7d33;
+  background-color: transparent;
+}
+
+.navbar .navbar-collapse .dropdownsocialmedia {
+  text-align: center;
+}
+.navbar .navbar-collapse .dropdownsocialmedia a i {
+  color: black;
+  margin: 30px 10px;
 }
 
 .socialmedia a i {
   color: black;
+}
+
+.bd-example .carousel-item img {
+  filter: grayscale(100%);
+}
+
+#story img {
+  margin: 70px 0 30px 0;
+}
+
+#story .storytext {
+  text-align: center;
+} 
+
+#story a {
+  color: #ed7d33;
+  text-decoration: none;
+}
+
+/* Section: Tour */
+
+#tour p {
+  font-size: 1.3rem;
+}
+
+#tour .tix {
+  width: 180px;
 }
 
 .table {
@@ -25,22 +91,40 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: grayscale(100%);
+  margin-bottom: 50px;
 }
 
-.lifeinpics .lifemobilerow {
+#lifeinpics a {
+  color: #ed7d33;
+}
+
+#lifeinpics .lifemobilerow {
   width: 600px;
   align-items: center;
 }
 
-.lifeinpics .tabletmobilerow {
+#lifeinpics .tabletmobilerow {
   width: 600px;
   align-items: center;
 }
 
 .musicmobileview img {
-  width: 200px;
-  border-radius: 50%;
-  border: none;
+  margin: 40px 0 20px 0;
+  width: 500px;
+  border-radius: 30%;
+}
+
+.musicmobileview a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.musicmobileview a:hover {
+  color: #ed7d33
 }
 
 .musictabletview img {
@@ -49,7 +133,16 @@ body {
   border: none;
 }
 
-#footer {
+#music button {
+  margin: 30px;
+  width: 60%;
+}
+
+#contact label {
+  display: none;
+}
+
+/* #footer {
   height: 200px;
   background-color: rgb(194, 193, 193);
 }
@@ -62,7 +155,7 @@ body {
 #footer .container .footer-text {
   display: flex;
   justify-content: center;
-}
+} */
 
 /* .container {
   background: red;
