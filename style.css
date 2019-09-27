@@ -6,7 +6,7 @@ body {
 }
 
 .navbar-custom { 
-  background-color: red !important; 
+  background-color: #000000 !important; 
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -23,17 +23,47 @@ body {
   width: 70px;
 }
 
-.navbar-toggler {
-  border: none;
+.navbar button span {
+  color: #ed7d33;
+  font-size: 2.2rem;
+}
+
+.navbar button span:focus {
+  box-shadow: none;
+  outline: none !important;
+}
+
+.navbar ul li {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-left: 30px;
+
+}
+
+.navbar #navbarNavDropdown {
+  margin: 50px 0 90px 0;
+}
+
+#navbarDropdownMenuLink {
+  color: #ffffff;
 }
 
 .navbar-nav .dropdown-menu {
   text-align: center;
+  background-color: #000000;
+}
+
+.navbar-nav .dropdown-menu a {
+  color: #ffffff;
 }
 
 .navbar-nav .dropdown-menu .dropdown-item:hover {
-  color: #ed7d33;
-  background-color: transparent;
+  background-color: #ed7d33;
+}
+
+.navbar button:active, button:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .navbar .navbar-collapse .dropdownsocialmedia {
@@ -77,6 +107,7 @@ body {
 #tour h2 {
   margin: 20px 0 30px 0;
 }
+
 #tour p {
   font-size: 1.3rem;
 }
@@ -85,8 +116,8 @@ body {
   width: 180px;
 }
 
-.table {
-  text-align: center;
+#tour .table {
+  color: #ffffff;
 }
 
 .table .tix {
@@ -94,31 +125,33 @@ body {
   margin-right: 20px;
 }
 
-#tour button {
-  width: 60%;
-  margin: 40px auto;
-}
-
 .parallax {
   background-image: url("/images/concert04.jpg");
-  height: 500px;
+  height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
-  margin-bottom: 50px;
+  margin: 70px 0 50px 0;
 }
 
-/* #lifeinpics a {
-  color: #ed7d33;
-}
-
-#lifeinpics .lifemobilerow {
+#lifeinpics img {
   width: 600px;
-  align-items: center;
+  margin-top: 40px;
 }
 
+#lifeinpics p {
+  font-size: 1.2rem;
+  margin: 10px 0 5px 0;
+}
+
+#lifeinpics p a {
+  color: #ed7d33;
+  font-size: 1.1rem;
+}
+
+/* 
 #lifeinpics .tabletmobilerow {
   width: 600px;
   align-items: center;
@@ -130,7 +163,7 @@ body {
 
 .musicmobileview img {
   margin: 40px 0 10px 0;
-  width: 500px;
+  width: 150px;
   border-radius: 30%;
 }
 
@@ -148,7 +181,7 @@ body {
 
 .musictabletview img {
   margin: 40px 0 10px 0;
-  width: 220px;
+  width: 150px;
   border-radius: 30%;
 }
 
@@ -166,7 +199,7 @@ body {
 
 .musicdesktopview img {
   margin: 40px 0 10px 0;
-  width: 480px;
+  width: 150px;
   border-radius: 30%;
 }
 
@@ -194,11 +227,7 @@ body {
 
 #contact .row h4 {
   text-align: center;
-  margin-top: 20px;
-}
-
-#contact .contactdetails {
-  background: red;
+  margin-top: 40px;
 }
 
 #contact .contactdetails li {
@@ -297,4 +326,14 @@ body {
 #footer .footertext{
   color: #ffffff;
   line-height: 5px;
+}
+
+@media (min-width: 992px) {
+  /* table, thead, tbody, th, td, tr { 
+    display: block; 
+ } */
+ table > a {
+   /* align-items: center; */
+   background: red;
+ }
 }
