@@ -6,11 +6,11 @@ body {
 }
 
 .navbar-custom { 
-  background-color: #ffffff !important; 
+  background-color: red !important; 
 }
 
 .navbar-custom .navbar-nav .nav-link {
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   margin: 0 auto;
 }
@@ -40,12 +40,20 @@ body {
   text-align: center;
 }
 .navbar .navbar-collapse .dropdownsocialmedia a i {
-  color: black;
+  color: #ffffff;
   margin: 30px 10px;
+}
+.navbar .navbar-collapse .dropdownsocialmedia a i:hover {
+  color: #ed7d33;
 }
 
 .socialmedia a i {
-  color: black;
+  color: #ffffff;
+  padding: 0 10px;
+}
+
+.socialmedia a i:hover {
+  color: #ed7d33;
 }
 
 .bd-example .carousel-item img {
@@ -66,7 +74,9 @@ body {
 }
 
 /* Section: Tour */
-
+#tour h2 {
+  margin: 20px 0 30px 0;
+}
 #tour p {
   font-size: 1.3rem;
 }
@@ -84,6 +94,11 @@ body {
   margin-right: 20px;
 }
 
+#tour button {
+  width: 60%;
+  margin: 40px auto;
+}
+
 .parallax {
   background-image: url("/images/concert04.jpg");
   height: 500px;
@@ -95,7 +110,7 @@ body {
   margin-bottom: 50px;
 }
 
-#lifeinpics a {
+/* #lifeinpics a {
   color: #ed7d33;
 }
 
@@ -107,10 +122,14 @@ body {
 #lifeinpics .tabletmobilerow {
   width: 600px;
   align-items: center;
+} */
+
+#music h2 {
+  margin: 20px 0 30px 0;
 }
 
 .musicmobileview img {
-  margin: 40px 0 20px 0;
+  margin: 40px 0 10px 0;
   width: 500px;
   border-radius: 30%;
 }
@@ -128,39 +147,154 @@ body {
 }
 
 .musictabletview img {
-  width: 200px;
-  border-radius: 50%;
-  border: none;
+  margin: 40px 0 10px 0;
+  width: 220px;
+  border-radius: 30%;
+}
+
+.musictabletview a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.musictabletview a:hover {
+  color: #ed7d33
+}
+
+.musicdesktopview img {
+  margin: 40px 0 10px 0;
+  width: 480px;
+  border-radius: 30%;
+}
+
+.musicdesktopview a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.musicdesktopview a:hover {
+  color: #ed7d33
 }
 
 #music button {
-  margin: 30px;
   width: 60%;
+  margin: 40px auto;
+  margin-bottom: 80px;
+}
+
+#contact h2 {
+  margin: 20px 0 30px 0;
+}
+
+#contact .row h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#contact .contactdetails {
+  background: red;
+}
+
+#contact .contactdetails li {
+  list-style: none;
+  line-height: 55px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#contact .contactdetails li i {
+  margin-right: 15px;
+}
+
+#contact .contactdetails li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#contact .contactdetails li a:hover {
+  color: #ed7d33
+}
+
+#contact .notablenews ul {
+  list-style: none;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#contact .notablenews a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#contact .notablenews p {
+  font-size: 1rem;
+  color: #ed7d33;
+}
+
+#contact .notablenews a:hover {
+  color: #ed7d33;
+}
+
+#contact .notablenews span {
+  color: #ed7d33;
+}
+
+#contact .subscribe h2 form{
+  /* margin: 0 auto; */
+  /* text-align: center; */
+  background: blue;
+}
+
+#contact form {
+  text-align: center;
 }
 
 #contact label {
   display: none;
 }
 
-/* #footer {
-  height: 200px;
-  background-color: rgb(194, 193, 193);
+#contact #fname {
+  width: 80%;
+  margin: 30px auto;
 }
 
-#footer .container .socialmedia {
-  display: flex;
-  justify-content: center;
+#contact #femail {
+  width: 80%;
+  margin: auto;
 }
 
-#footer .container .footer-text {
-  display: flex;
-  justify-content: center;
-} */
+.form button {
+  width: 60%;
+  margin: 50px auto;
+  margin-bottom: 100px;
+}
 
-/* .container {
-  background: red;
-} */
+#footer {
+  height: 300px;
+  background-color: #000000;
+}
 
-/* table {
-  background: red;
-} */
+#footer .footersocialmedia {
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+#footer .footersocialmedia i {
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+#footer .footersocialmedia i:hover {
+  color: #ed7d33;
+}
+
+#footer .footertext{
+  color: #ffffff;
+  line-height: 5px;
+}
