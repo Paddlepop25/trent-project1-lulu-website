@@ -92,6 +92,7 @@ body {
 
 #story img {
   margin: 70px 0 30px 0;
+  border-radius: 35px;
 }
 
 #story .storytext {
@@ -114,6 +115,23 @@ body {
 
 #tour .tix {
   width: 180px;
+  background-color: #ed7d33;
+  font-weight: bold;
+}
+
+#tour .tix:hover {
+  background-color: #c45c17;
+}
+
+#tour .vip {
+  width: 190px;
+  border: 1px solid #ed7d33;
+  color: #ffffff;
+}
+
+#tour .vip:hover {
+  background-color: #ed7d33;
+  color: #000000;
 }
 
 #tour .table {
@@ -123,6 +141,16 @@ body {
 .table .tix {
   width: 200px;
   margin-right: 20px;
+}
+
+#tour .dates {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #ed7d33
+}
+
+#tour .dates:hover {
+  background-color: #c45c17;
 }
 
 .parallax {
@@ -137,8 +165,13 @@ body {
 }
 
 #lifeinpics img {
-  width: 600px;
+  width: 500px;
   margin-top: 40px;
+  border-radius: 25px;
+}
+
+#lifeinpics .longpic {
+  height: 700px;
 }
 
 #lifeinpics p {
@@ -150,12 +183,6 @@ body {
   color: #ed7d33;
   font-size: 1.1rem;
 }
-
-/* 
-#lifeinpics .tabletmobilerow {
-  width: 600px;
-  align-items: center;
-} */
 
 #music h2 {
   margin: 20px 0 30px 0;
@@ -199,7 +226,7 @@ body {
 
 .musicdesktopview img {
   margin: 40px 0 10px 0;
-  width: 150px;
+  width: 450px;
   border-radius: 30%;
 }
 
@@ -219,6 +246,11 @@ body {
   width: 60%;
   margin: 40px auto;
   margin-bottom: 80px;
+  background-color: #ed7d33;
+}
+
+#music button:hover {
+  background-color: #c45c17
 }
 
 #contact h2 {
@@ -302,6 +334,11 @@ body {
   width: 60%;
   margin: 50px auto;
   margin-bottom: 100px;
+  background-color: #ed7d33;
+}
+
+.form button:hover {
+  background-color: #c45c17;
 }
 
 #footer {
