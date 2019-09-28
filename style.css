@@ -36,7 +36,7 @@ body {
 .navbar ul li {
   font-size: 1.2rem;
   text-align: center;
-  padding-left: 30px;
+  padding-left: 20px;
 
 }
 
@@ -91,12 +91,15 @@ body {
 }
 
 #story img {
-  margin: 70px 0 30px 0;
+  width: 100%;
+  max-width: 650px;
+  margin: 50px auto;
   border-radius: 35px;
 }
 
 #story .storytext {
   text-align: center;
+  font-size: 0.9rem;
 } 
 
 #story a {
@@ -110,7 +113,7 @@ body {
 }
 
 #tour p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 #tour .tix {
@@ -136,21 +139,44 @@ body {
 
 #tour .table {
   color: #ffffff;
+  font-size: 0.8rem;
 }
 
-.table .tix {
-  width: 200px;
-  margin-right: 20px;
+#tour .ticket {
+  display: block;
+  margin: 10px auto;
+  background-color: #ed7d33;
+  font-weight: bold;
 }
 
-#tour .dates {
+#tour .ticket:hover {
+  background-color: #c45c17;
+  color: #ffffff;
+}
+
+#tour .vipupgrade {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #ed7d33;
+  color: #ffffff;
+}
+
+#tour .vipupgrade:hover {
+  background-color: #ed7d33;
+  color: #000000;
+  font-weight: bold;
+}
+
+#tour .viewalldates {
   width: 60%;
   margin: 0 auto;
   background-color: #ed7d33
 }
 
-#tour .dates:hover {
+#tour .viewalldates:hover {
   background-color: #c45c17;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .parallax {
@@ -165,23 +191,21 @@ body {
 }
 
 #lifeinpics img {
-  width: 500px;
-  margin-top: 40px;
+  /* width: 100%;
+  max-width: 500px;
+  margin-top: 40px; */
   border-radius: 25px;
 }
 
-#lifeinpics .longpic {
-  height: 700px;
-}
-
 #lifeinpics p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 10px 0 5px 0;
 }
 
 #lifeinpics p a {
   color: #ed7d33;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+  text-decoration: none;
 }
 
 #music h2 {
@@ -189,8 +213,8 @@ body {
 }
 
 .musicmobileview img {
-  margin: 40px 0 10px 0;
-  width: 150px;
+  /* margin: 40px 0 10px 0;
+  max-width: 450px; */
   border-radius: 30%;
 }
 
@@ -208,7 +232,8 @@ body {
 
 .musictabletview img {
   margin: 40px 0 10px 0;
-  width: 150px;
+  width: 100%;
+  max-width: 350px;
   border-radius: 30%;
 }
 
@@ -226,7 +251,8 @@ body {
 
 .musicdesktopview img {
   margin: 40px 0 10px 0;
-  width: 450px;
+  width: 100%;
+  max-width: 350px;
   border-radius: 30%;
 }
 
@@ -235,7 +261,7 @@ body {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 .musicdesktopview a:hover {
@@ -265,8 +291,8 @@ body {
 #contact .contactdetails li {
   list-style: none;
   line-height: 55px;
-  text-align: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
+
 }
 
 #contact .contactdetails li i {
@@ -283,9 +309,10 @@ body {
 }
 
 #contact .notablenews ul {
+  font-style: italic;
   list-style: none;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 #contact .notablenews a {
@@ -306,18 +333,16 @@ body {
   color: #ed7d33;
 }
 
-#contact .subscribe h2 form{
-  /* margin: 0 auto; */
-  /* text-align: center; */
-  background: blue;
-}
-
 #contact form {
   text-align: center;
 }
 
 #contact label {
   display: none;
+}
+
+#contact .form-control:focus {
+  outline: none !important;
 }
 
 #contact #fname {
@@ -366,11 +391,30 @@ body {
 }
 
 @media (min-width: 992px) {
-  /* table, thead, tbody, th, td, tr { 
-    display: block; 
- } */
- table > a {
-   /* align-items: center; */
-   background: red;
- }
+  #tour .table .ticket,.vipupgrade{
+    display: inline-block;
+    width: 200px;
+  }
+
+  #tour .table {
+  font-size: 1rem;    
+  }
+
+  #story .storytext {
+    margin: auto;
+  }
+
+  .navbar .navbar-collapse .dropdownsocialmedia {
+    text-align: center;
+    display: none;
+  }
+  .navbar .navbar-collapse .dropdownsocialmedia a i {
+    color: #ffffff;
+    margin: 30px 10px;
+    display: none;
+  }
+  .navbar .navbar-collapse .dropdownsocialmedia a i:hover {
+    color: #ed7d33;
+    display: none;
+  }
 }
