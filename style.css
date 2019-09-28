@@ -90,9 +90,8 @@ body {
   filter: grayscale(100%);
 }
 
+/* Start of Story of Lulu */
 #story img {
-  width: 100%;
-  max-width: 650px;
   margin: 50px auto;
   border-radius: 35px;
 }
@@ -106,6 +105,7 @@ body {
   color: #ed7d33;
   text-decoration: none;
 }
+/* End of Story of Lulu */
 
 /* Section: Tour */
 #tour h2 {
@@ -139,7 +139,19 @@ body {
 
 #tour .table {
   color: #ffffff;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+}
+
+#tour th {
+  /* background: red; */
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+#tour td {
+  /* background: blue; */
+  vertical-align: middle;
+  padding-left: 50px;
 }
 
 #tour .ticket {
@@ -147,6 +159,7 @@ body {
   margin: 10px auto;
   background-color: #ed7d33;
   font-weight: bold;
+  height: 60px;
 }
 
 #tour .ticket:hover {
@@ -159,6 +172,8 @@ body {
   margin: 10px auto;
   border: 1px solid #ed7d33;
   color: #ffffff;
+  height: 60px;
+  font-size: 0.6rem;
 }
 
 #tour .vipupgrade:hover {
@@ -287,6 +302,13 @@ body {
   text-align: center;
   margin-top: 40px;
 }
+.contactdetails {
+  text-align: center;
+}
+
+.contact-text {
+  text-align: left;
+}
 
 #contact .contactdetails li {
   list-style: none;
@@ -391,9 +413,30 @@ body {
 }
 
 @media (min-width: 992px) {
+
+  .navbar #navbarNavDropdown {
+    margin: 0 auto;
+  }
+
+  .navbar .dropdownsocialmedia {
+    display: none;
+  }
+
+  #tour .table th,td {
+    font-size: 1rem;
+  }
+  
   #tour .table .ticket,.vipupgrade{
     display: inline-block;
     width: 200px;
+  }
+
+  #tour .table .vipupgrade {
+    font-size: 1rem;
+  }
+  
+  #tour .table .ticket {
+    margin-right: 20px;
   }
 
   #tour .table {
@@ -404,17 +447,4 @@ body {
     margin: auto;
   }
 
-  .navbar .navbar-collapse .dropdownsocialmedia {
-    text-align: center;
-    display: none;
-  }
-  .navbar .navbar-collapse .dropdownsocialmedia a i {
-    color: #ffffff;
-    margin: 30px 10px;
-    display: none;
-  }
-  .navbar .navbar-collapse .dropdownsocialmedia a i:hover {
-    color: #ed7d33;
-    display: none;
-  }
 }
