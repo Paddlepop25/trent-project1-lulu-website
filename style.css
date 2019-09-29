@@ -241,14 +241,19 @@ body {
   margin: auto;
 }
 
-#lifeinpics p {
-  font-size: 1rem;
+#lifeinpics .lifetext {
+  font-style: italic;
+  font-size: 1.2rem;
   margin: 10px 0 5px 0;
+}
+
+#lifeinpics p {
+  
 }
 
 #lifeinpics p a {
   color: #ed7d33;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -269,7 +274,7 @@ body {
 
 .musicmobileview img {
   margin: 50px 0 10px 0;
-  max-width: 300px;
+  max-width: 280px;
   border-radius: 30%;
   box-shadow: 15px 10px 25px rgba(0, 0, 0, .5);
 }
@@ -279,7 +284,7 @@ body {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .musicmobileview a:hover {
@@ -289,7 +294,7 @@ body {
 .musictabletview img {
   margin: 40px 0 10px 0;
   width: 100%;
-  max-width: 350px;
+  max-width: 300px;
   border-radius: 30%;
   box-shadow: 15px 10px 25px rgba(0, 0, 0, .5);
 }
@@ -299,7 +304,7 @@ body {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 .musictabletview a:hover {
@@ -309,7 +314,7 @@ body {
 .musicdesktopview img {
   margin: 40px 0 10px 0;
   width: 100%;
-  max-width: 350px;
+  max-width: 300px;
   border-radius: 30%;
   box-shadow: 15px 10px 25px rgba(0, 0, 0, .5);
 }
@@ -319,7 +324,7 @@ body {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 .musicdesktopview a:hover {
@@ -338,64 +343,60 @@ body {
   background-color: #c45c17
 }
 
+/* Section: Contact */
 #contact h2 {
   margin: 20px 0 0 30px;
 }
 
-#contact .row h4 {
-  text-align: center;
-  margin-top: 40px;
+#contact .asian-title {
+  font-size: 1.5rem;
+  margin: 40px 0 15px 0;
 }
 
-.contactdetails {
-  text-align: center;
-}
-
-.contact-text {
+#contact .asian-fanclub ul {
+  list-style: none;
+  line-height: 30px;
+  font-size: 1.1rem;
   text-align: left;
 }
 
-#contact .contactdetails li {
-  list-style: none;
-  line-height: 55px;
-  font-size: 1rem;
-}
-
-#contact .contactdetails li i {
+#contact .asian-fanclub li i {
   margin-right: 15px;
 }
 
-#contact .contactdetails li a {
+#contact .asian-fanclub li a {
   color: #ffffff;
   text-decoration: none;
 }
 
-#contact .contactdetails li a:hover {
+#contact .asian-fanclub li a:hover {
   color: #ed7d33
 }
 
-#contact .notablenews ul {
-  font-style: italic;
-  list-style: none;
-  text-align: center;
-  font-size: 1rem;
+#contact .notable-title {
+  font-size: 1.5rem;
+  margin: 40px 0 15px 0;
 }
 
-#contact .notablenews a {
+#contact .notable-news ul {
+  list-style: none;
+  line-height: 30px;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+#contact .notable-news a {
   text-decoration: none;
   color: #ffffff;
+  font-style: italic;
 }
 
-#contact .notablenews p {
-  font-size: 1rem;
+#contact .notable-news a:hover {
   color: #ed7d33;
 }
 
-#contact .notablenews a:hover {
-  color: #ed7d33;
-}
-
-#contact .notablenews span {
+#contact .notable-news p {
+  font-size: 0.9rem;
   color: #ed7d33;
 }
 
@@ -405,10 +406,6 @@ body {
 
 #contact label {
   display: none;
-}
-
-#contact .form-control:focus {
-  outline: none !important;
 }
 
 #contact #fname {
