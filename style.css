@@ -116,7 +116,7 @@ body {
 }
 
 #tour p {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 #tour .tix {
@@ -146,30 +146,37 @@ body {
   font-weight: bold;
 }
 
+/* Tour - tablet view */
 #tour .table {
   color: #ffffff;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
+
+#tour .table th, .table td {
+  border-top: 1px dashed rgba(190, 190, 190, 0.219);
+} 
 
 #tour th {
-  /* background: red; */
   vertical-align: middle;
-  padding-left: 50px;
 }
 
-#tour td {
-  /* background: blue; */
+#tour .tdcity {
   vertical-align: middle;
-  padding-left: 50px;
+}
+
+#tour .tdhour {
+  vertical-align: middle;
+}
+
+#tour .tdbutton button {
+  position: relative;
+  left: 33px;
 }
 
 #tour .ticket {
-  display: block;
-  margin: 10px auto;
   background-color: #ed7d33;
   font-weight: bold;
-  height: 60px;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 #tour .ticket:hover {
@@ -178,13 +185,10 @@ body {
 }
 
 #tour .vipupgrade {
-  display: block;
-  margin: 10px auto;
   border: 1px solid #ed7d33;
   color: #ffffff;
-  height: 60px;
-  font-size: 0.6rem;
-  border-radius: 25px;
+  border-radius: 20px;
+  margin-left: 10px;
 }
 
 #tour .vipupgrade:hover {
@@ -196,14 +200,16 @@ body {
 #tour .viewalldates {
   width: 60%;
   margin: 0 auto;
-  background-color: #ed7d33
-}
+  background-color: #ed7d33;
+  font-weight: bold;
+
+} 
 
 #tour .viewalldates:hover {
   background-color: #c45c17;
   color: #ffffff;
   font-weight: bold;
-}
+}  
 
 .parallax1 {
   background-image: url("/images/concert04.jpg");
@@ -312,6 +318,7 @@ body {
   margin: 40px auto;
   margin-bottom: 80px;
   background-color: #ed7d33;
+  font-weight: bold;
 }
 
 #music button:hover {
@@ -406,6 +413,7 @@ body {
   margin: 50px auto;
   margin-bottom: 100px;
   background-color: #ed7d33;
+  font-weight: bold;
 }
 
 .form button:hover {
@@ -436,8 +444,17 @@ body {
   line-height: 5px;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 346px) {
+  #tour .tix {
+    /* width: 130px;
+    background-color: #ed7d33;
+    font-weight: bold; */
+    /* border-radius: 125px; */
+    margin: 10px 0 10px 5px;
+  }
+}
 
+@media (min-width: 992px) {
   .navbar #navbarNavDropdown {
     margin: 0 auto;
   }
@@ -448,31 +465,18 @@ body {
 
   #story .storytext {
     font-size: 1.1rem;
-  }
-
-  #tour .table th,td {
-    font-size: 1rem;
-  }
-  
-  #tour .table .ticket,.vipupgrade{
-    display: inline-block;
-    width: 200px;
-  }
-
-  #tour .table .vipupgrade {
-    font-size: 1rem;
-  }
-  
-  #tour .table .ticket {
-    margin-right: 20px;
-  }
-
-  #tour .table {
-  font-size: 1rem;    
-  }
-
-  #story .storytext {
     margin: auto;
   }
 
+  #tour .tdbutton button {
+    position: relative;
+    left: 110px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #tour .tdbutton button {
+    position: relative;
+    left: 170px;
+  }
 }
