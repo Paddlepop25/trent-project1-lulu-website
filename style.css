@@ -91,6 +91,15 @@ body {
 .carousel-pic .carousel-item img {
   filter: grayscale(100%);
 }
+
+.circle-arrow {
+  background: red;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ed7d33;
+  padding: 20px;
+}
 /* End of Carousel */
 
 /* Start of Story of Lulu */
@@ -201,16 +210,16 @@ body {
 }
 
 #tour .viewalldates {
-  width: 60%;
+  width: 40%;
   margin: 0 auto;
-  background-color: #ed7d33;
+  border: 1px solid #ed7d33;
   font-weight: bold;
-
+  color: #ed7d33
 } 
 
 #tour .viewalldates:hover {
   background-color: #c45c17;
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
 }  
 
@@ -275,7 +284,7 @@ body {
 .musicmobileview img {
   margin: 50px 0 10px 0;
   max-width: 280px;
-  border-radius: 30%;
+  border-radius: 50%;
   box-shadow: 15px 10px 25px rgba(0, 0, 0, .5);
 }
 
@@ -295,7 +304,7 @@ body {
   margin: 40px 0 10px 0;
   width: 100%;
   max-width: 300px;
-  border-radius: 30%;
+  border-radius: 50%;
   box-shadow: 15px 10px 25px rgba(0, 0, 0, .5);
 }
 
@@ -315,7 +324,7 @@ body {
   margin: 40px 0 10px 0;
   width: 100%;
   max-width: 300px;
-  border-radius: 30%;
+  border-radius: 50%;
   box-shadow: 15px 10px 25px rgba(0, 0, 0, .5);
 }
 
@@ -332,15 +341,16 @@ body {
 }
 
 #music button {
-  width: 60%;
+  width: 40%;
   margin: 40px auto;
-  margin-bottom: 80px;
-  background-color: #ed7d33;
+  border: 1px solid #ed7d33;
   font-weight: bold;
+  color: #ed7d33;
 }
 
 #music button:hover {
-  background-color: #c45c17
+  background-color: #c45c17;
+  color: #000000;
 }
 
 /* Section: Contact */
@@ -400,8 +410,9 @@ body {
   color: #ed7d33;
 }
 
-#contact form {
+#contact .subscribe, form {
   text-align: center;
+  margin-top: 20px;
 }
 
 #contact label {
@@ -419,24 +430,25 @@ body {
 }
 
 .form button {
-  width: 60%;
-  margin: 50px auto;
-  margin-bottom: 100px;
-  background-color: #ed7d33;
+  width: 40%;
+  margin: 40px auto;
+  border: 1px solid #ed7d33;
   font-weight: bold;
+  color: #ed7d33
 }
 
 .form button:hover {
   background-color: #c45c17;
+
 }
 
 #footer {
-  height: 300px;
+  height: 150px;
   background-color: #000000;
 }
 
 #footer .footersocialmedia {
-  margin-top: 90px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
@@ -471,6 +483,7 @@ body {
 
   #story .storytext {
     font-size: 1.1rem;
+    text-align: justify;
     margin: auto;
   }
 
@@ -478,6 +491,8 @@ body {
     position: relative;
     left: 100px;
   }
+
+  /* #footer  */
 }
 
 @media (min-width: 1200px) {
