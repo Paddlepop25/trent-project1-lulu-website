@@ -120,21 +120,26 @@ body {
   width: 180px;
   background-color: #ed7d33;
   font-weight: bold;
+  border-radius: 25px;
 }
 
 #tour .tix:hover {
   background-color: #c45c17;
+  color: #ffffff;
 }
 
 #tour .vip {
   width: 190px;
   border: 1px solid #ed7d33;
   color: #ffffff;
+  margin-left: 10px;
+  border-radius: 25px;
 }
 
 #tour .vip:hover {
   background-color: #ed7d33;
   color: #000000;
+  font-weight: bold;
 }
 
 #tour .table {
@@ -160,6 +165,7 @@ body {
   background-color: #ed7d33;
   font-weight: bold;
   height: 60px;
+  border-radius: 25px;
 }
 
 #tour .ticket:hover {
@@ -174,6 +180,7 @@ body {
   color: #ffffff;
   height: 60px;
   font-size: 0.6rem;
+  border-radius: 25px;
 }
 
 #tour .vipupgrade:hover {
@@ -206,9 +213,7 @@ body {
 }
 
 #lifeinpics img {
-  /* width: 100%;
-  max-width: 500px;
-  margin-top: 40px; */
+  margin-top: 50px;
   border-radius: 25px;
 }
 
@@ -228,8 +233,8 @@ body {
 }
 
 .musicmobileview img {
-  /* margin: 40px 0 10px 0;
-  max-width: 450px; */
+  margin: 50px 0 10px 0;
+  max-width: 400px;
   border-radius: 30%;
 }
 
@@ -238,7 +243,7 @@ body {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .musicmobileview a:hover {
