@@ -97,6 +97,7 @@ body {
 #story img {
   margin: 30px auto;
   border-radius: 35px;
+  box-shadow: -7px 12px 17px rgba(0, 0, 0, .5);
 }
 
 #story .storytext {
@@ -170,13 +171,14 @@ body {
 
 #tour .tdbutton button {
   position: relative;
-  left: 33px;
+  left: 10px;
 }
 
 #tour .ticket {
   background-color: #ed7d33;
   font-weight: bold;
   border-radius: 20px;
+  width: 100px;
 }
 
 #tour .ticket:hover {
@@ -189,6 +191,7 @@ body {
   color: #ffffff;
   border-radius: 20px;
   margin-left: 10px;
+  width: 130px;
 }
 
 #tour .vipupgrade:hover {
@@ -211,6 +214,7 @@ body {
   font-weight: bold;
 }  
 
+/* Parallax 1 */
 .parallax1 {
   background-image: url("/images/concert04.jpg");
   height: 500px;
@@ -221,7 +225,7 @@ body {
   filter: grayscale(100%);
   margin: 70px 0 100px 0;
 }
-
+/* Section: Life in Pictures */
 #lifeinpics h2 {
   margin: 20px 0 0 30px;
 }
@@ -229,6 +233,12 @@ body {
 #lifeinpics img {
   margin-top: 50px;
   border-radius: 25px;
+  box-shadow: 15px 10px 30px rgba(0, 0, 0, .5)
+}
+
+#lifeinpics article {
+  width: 80%;
+  margin: auto;
 }
 
 #lifeinpics p {
@@ -261,6 +271,7 @@ body {
   margin: 50px 0 10px 0;
   max-width: 300px;
   border-radius: 30%;
+  box-shadow: 15px 10px 25px rgba(0, 0, 0, .5);
 }
 
 .musicmobileview a {
@@ -280,6 +291,7 @@ body {
   width: 100%;
   max-width: 350px;
   border-radius: 30%;
+  box-shadow: 15px 10px 25px rgba(0, 0, 0, .5);
 }
 
 .musictabletview a {
@@ -299,6 +311,7 @@ body {
   width: 100%;
   max-width: 350px;
   border-radius: 30%;
+  box-shadow: 15px 10px 25px rgba(0, 0, 0, .5);
 }
 
 .musicdesktopview a {
@@ -446,10 +459,6 @@ body {
 
 @media (max-width: 346px) {
   #tour .tix {
-    /* width: 130px;
-    background-color: #ed7d33;
-    font-weight: bold; */
-    /* border-radius: 125px; */
     margin: 10px 0 10px 5px;
   }
 }
@@ -470,7 +479,7 @@ body {
 
   #tour .tdbutton button {
     position: relative;
-    left: 110px;
+    left: 100px;
   }
 }
 
