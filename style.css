@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: url("/images/darkwallpaper1.jpeg");
+  background-image: url("images/darkwallpaper1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -251,7 +251,7 @@ button:focus {
 
 /* Parallax 1 */
 .parallax1 {
-  background-image: url("/images/concert04.jpg");
+  background-image: url("images/concert04.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -290,7 +290,7 @@ button:focus {
 }
 
 .parallax2 {
-  background-image: url("/images/concert05.jpg");
+  background-image: url("images/concert05.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
