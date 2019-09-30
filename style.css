@@ -74,7 +74,9 @@ button:focus {
 .navbar .navbar-collapse .dropdownsocialmedia {
   text-align: center;
   font-size: 0.9rem;
+  /* display: none; */
 }
+
 .navbar .navbar-collapse .dropdownsocialmedia a i {
   color: #ffffff;
   margin: 30px 10px;
@@ -530,7 +532,7 @@ form {
     margin: 0 auto;
   }
 
-  .navbar .dropdownsocialmedia {
+  .navbar .navbar-collapse  .dropdownsocialmedia {
     display: none;
   }
 
