@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 body {
   background-image: url("/images/darkwallpaper1.jpeg");
   background-repeat: no-repeat;
@@ -21,21 +25,21 @@ body {
 }
 
 .navbar-brand img {
-  width: 60px;
+  width: 50px;
 }
 
 .navbar button span {
-  color: #ed7d33;
+  color: #ed7d33 !important;
   font-size: 2.2rem;
 }
 
 .navbar button span:focus {
   box-shadow: none;
-  outline: none !important;
+  outline: none;
 }
 
 .navbar ul li {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align: center;
   padding-left: 20px;
 }
@@ -69,11 +73,13 @@ button:focus {
 
 .navbar .navbar-collapse .dropdownsocialmedia {
   text-align: center;
+  font-size: 0.9rem;
 }
 .navbar .navbar-collapse .dropdownsocialmedia a i {
   color: #ffffff;
   margin: 30px 10px;
 }
+
 .navbar .navbar-collapse .dropdownsocialmedia a i:hover {
   color: #ed7d33;
 }
@@ -122,11 +128,11 @@ button:focus {
 #story article {
   width: 70%;
   margin: auto;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }
 
 #story .shout {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   position: relative;
   top: 1px;
 }
@@ -134,14 +140,13 @@ button:focus {
 #story a {
   color: #ed7d33;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 /* End of Story of Lulu */
 
 /* Section: Tour */
-#tour h2 {
-  margin: 30px 0;
-  /* text-align: left; */
+#tour h3 {
+  margin: 30px auto;
 }
 
 #tour p {
@@ -153,7 +158,6 @@ button:focus {
   background-color: #ed7d33;
   font-weight: bold;
   border-radius: 25px;
-  /* margin-right: 30px; */
 }
 
 #tour .tix:hover {
@@ -230,7 +234,7 @@ button:focus {
 }
 
 #tour .viewalldates {
-  width: 40%;
+  width: 60%;
   margin: 0 auto;
   border: 1px solid #ed7d33;
   font-weight: bold;
@@ -255,13 +259,13 @@ button:focus {
   margin: 70px 0 100px 0;
 }
 /* Section: Life in Pictures */
-#lifeinpics h2 {
-  margin: 20px 0 0 30px;
-  text-align: left;
+#lifeinpics h3 {
+  margin: 20px auto;
+  text-align: center;
 }
 
 #lifeinpics img {
-  margin-top: 50px;
+  margin-top: 20px;
   border-radius: 25px;
   box-shadow: 15px 10px 30px rgba(0, 0, 0, 0.5);
 }
@@ -273,13 +277,13 @@ button:focus {
 
 #lifeinpics .lifetext {
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 10px 0 5px 0;
 }
 
 #lifeinpics p a {
   color: #ed7d33;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-decoration: none;
 }
 
@@ -294,14 +298,14 @@ button:focus {
   margin: 70px 0 100px 0;
 }
 
-#music h2 {
-  margin: 20px 0 0 30px;
-  text-align: left;
+#music h3 {
+  margin-top: 20px;
+  text-align: center;
 }
 
 .musicmobileview img {
-  margin: 50px 0 10px 0;
-  max-width: 280px;
+  margin: 20px 0 10px 0;
+  max-width: 260px;
   border-radius: 50%;
   box-shadow: 15px 10px 25px rgba(0, 0, 0, 0.5);
 }
@@ -311,7 +315,7 @@ button:focus {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .musicmobileview a:hover {
@@ -319,7 +323,7 @@ button:focus {
 }
 
 .musictabletview img {
-  margin: 40px 0 10px 0;
+  margin: 30px 0 10px 0;
   width: 100%;
   max-width: 300px;
   border-radius: 50%;
@@ -331,7 +335,7 @@ button:focus {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .musictabletview a:hover {
@@ -339,7 +343,7 @@ button:focus {
 }
 
 .musicdesktopview img {
-  margin: 40px 0 10px 0;
+  margin: 30px 0 10px 0;
   width: 100%;
   max-width: 300px;
   border-radius: 50%;
@@ -351,7 +355,7 @@ button:focus {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .musicdesktopview a:hover {
@@ -359,7 +363,7 @@ button:focus {
 }
 
 #music button {
-  width: 40%;
+  width: 60%;
   margin: 40px auto;
   border: 1px solid #ed7d33;
   font-weight: bold;
@@ -372,26 +376,28 @@ button:focus {
 }
 
 /* Section: Contact */
-#contact h2 {
-  margin: 20px 0 0 30px;
-  text-align: left;
+#contact h3 {
+  margin: 20px auto;
+  text-align: center;
 }
 
 #contact .asian-title {
-  font-size: 1.5rem;
-  margin: 40px 0 15px 0;
+  font-size: 1.4rem;
+  margin: 10px 0 15px 0;
 }
 
 #contact .asian-fanclub ul {
   list-style: none;
   line-height: 30px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: left;
+  /* margin: 0 auto; */
+  /* padding-left: 10px; */
 }
 
 #contact .asian-fanclub li i {
   margin-right: 15px;
-}
+} 
 
 #contact .asian-fanclub li a {
   color: #ffffff;
@@ -403,14 +409,14 @@ button:focus {
 }
 
 #contact .notable-title {
-  font-size: 1.5rem;
-  margin: 40px 0 15px 0;
+  font-size: 1.4rem;
+  margin: 30px 0 5px 0;
 }
 
 #contact .notable-news ul {
   list-style: none;
   line-height: 30px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: left;
 }
 
@@ -418,6 +424,7 @@ button:focus {
   text-decoration: none;
   color: #ffffff;
   font-style: italic;
+  font-size: 1rem;
 }
 
 #contact .notable-news a:hover {
@@ -450,7 +457,7 @@ form {
 }
 
 .form button {
-  width: 40%;
+  width: 60%;
   margin: 40px auto;
   border: 1px solid #ed7d33;
   font-weight: bold;
@@ -462,7 +469,7 @@ form {
 }
 
 #footer {
-  height: 150px;
+  height: 180px;
   background-color: #000000;
 }
 
@@ -489,18 +496,34 @@ form {
   #tour .tix {
     margin: 10px 0 10px 5px;
   }
+
+  #tour .viewalldates {
+    width: 70%;
+  }
+
+  #contact .asian-fanclub ul i {
+    display: none;
 }
 
-@media (max-width: 767px) {
-  /* #tour h2 {
-    text-align: center;
-    text-align: left;
-  } */
-
+@media (min-width: 576px) {
   #story article {
     font-size: 1rem;
   }
+  #story .shout {
+    font-size: 1.3rem;
+  }
+  
+  #story a {
+    font-size: 0.9rem;
+  }
 }
+
+/* @media (min-width: 768px) {
+  #contact .notable-news .notable-title {
+    margin: 10px 0 5px 0;
+    background: red;
+  }
+} */
 
 @media (min-width: 992px) {
   .navbar #navbarNavDropdown {
@@ -515,9 +538,21 @@ form {
     width: 80%;
     margin-top: 80px;
   }
-
+  
   #story article {
     text-align: justify;
+    font-size: 1.3rem;
+  }
+  #story .shout {
+    font-size: 1.6rem;
+  }
+  
+  #story a {
+    font-size: 1.2rem;
+  }
+
+  #lifeinpics h3 {
+    text-align: left;
   }
 
   /* Section - TOUR DATES */
@@ -525,11 +560,28 @@ form {
     position: relative;
     left: 100px;
   }
+
+  .musictabletview img, .musicdesktopview img {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .musictabletview a, .musicdesktopview a {
+    font-size: 1.3rem;
+  }
 }
 
 @media (min-width: 1200px) {
   #tour .tdbutton button {
     position: relative;
     left: 170px;
+  }
+
+  #lifeinpics .lifetext {
+    font-size: 1.1rem;
+  }
+
+  #lifeinpics p a {
+    font-size: 1rem;
   }
 }
