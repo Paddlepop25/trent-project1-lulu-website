@@ -6,8 +6,8 @@ body {
 }
 
 /* Start of Navbar */
-.navbar-custom { 
-  background-color: #000000 !important; 
+.navbar-custom {
+  background-color: #000000 !important;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -61,7 +61,8 @@ body {
   background-color: #ed7d33;
 }
 
-.navbar button:active, button:focus {
+.navbar button:active,
+button:focus {
   outline: none;
   box-shadow: none;
 }
@@ -88,6 +89,14 @@ body {
 /* End of Navbar */
 
 /* Start of Carousel */
+.carousel-pic .carousel-previous:hover {
+  color: #ed7d33;
+}
+
+.carousel-pic .carousel-next:hover {
+  color: #ed7d33;
+}
+
 .carousel-pic .carousel-item img {
   filter: grayscale(100%);
 }
@@ -104,19 +113,28 @@ body {
 
 /* Start of Story of Lulu */
 #story img {
-  margin: 30px auto;
+  width: 80%;
+  margin: 70px 0 20px 0;
   border-radius: 35px;
-  box-shadow: -7px 12px 17px rgba(0, 0, 0, .5);
+  box-shadow: -7px 12px 17px rgba(0, 0, 0, 0.5);
 }
 
-#story .storytext {
-  text-align: center;
-  font-size: 1rem;
-} 
+#story article {
+  width: 70%;
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+#story .shout {
+  font-size: 1.4rem;
+  position: relative;
+  top: 1px;
+}
 
 #story a {
   color: #ed7d33;
   text-decoration: none;
+  font-size: 1rem;
 }
 /* End of Story of Lulu */
 
@@ -162,9 +180,10 @@ body {
   font-size: 1.1rem;
 }
 
-#tour .table th, .table td {
+#tour .table th,
+.table td {
   border-top: 1px dashed rgba(190, 190, 190, 0.219);
-} 
+}
 
 #tour th {
   vertical-align: middle;
@@ -214,14 +233,14 @@ body {
   margin: 0 auto;
   border: 1px solid #ed7d33;
   font-weight: bold;
-  color: #ed7d33
-} 
+  color: #ed7d33;
+}
 
 #tour .viewalldates:hover {
   background-color: #c45c17;
   color: #000000;
   font-weight: bold;
-}  
+}
 
 /* Parallax 1 */
 .parallax1 {
@@ -242,7 +261,7 @@ body {
 #lifeinpics img {
   margin-top: 50px;
   border-radius: 25px;
-  box-shadow: 15px 10px 30px rgba(0, 0, 0, .5)
+  box-shadow: 15px 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 #lifeinpics article {
@@ -254,10 +273,6 @@ body {
   font-style: italic;
   font-size: 1.2rem;
   margin: 10px 0 5px 0;
-}
-
-#lifeinpics p {
-  
 }
 
 #lifeinpics p a {
@@ -285,7 +300,7 @@ body {
   margin: 50px 0 10px 0;
   max-width: 280px;
   border-radius: 50%;
-  box-shadow: 15px 10px 25px rgba(0, 0, 0, .5);
+  box-shadow: 15px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .musicmobileview a {
@@ -305,7 +320,7 @@ body {
   width: 100%;
   max-width: 300px;
   border-radius: 50%;
-  box-shadow: 15px 10px 25px rgba(0, 0, 0, .5);
+  box-shadow: 15px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .musictabletview a {
@@ -317,7 +332,7 @@ body {
 }
 
 .musictabletview a:hover {
-  color: #ed7d33
+  color: #ed7d33;
 }
 
 .musicdesktopview img {
@@ -325,7 +340,7 @@ body {
   width: 100%;
   max-width: 300px;
   border-radius: 50%;
-  box-shadow: 15px 10px 25px rgba(0, 0, 0, .5);
+  box-shadow: 15px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .musicdesktopview a {
@@ -337,7 +352,7 @@ body {
 }
 
 .musicdesktopview a:hover {
-  color: #ed7d33
+  color: #ed7d33;
 }
 
 #music button {
@@ -380,7 +395,7 @@ body {
 }
 
 #contact .asian-fanclub li a:hover {
-  color: #ed7d33
+  color: #ed7d33;
 }
 
 #contact .notable-title {
@@ -410,7 +425,8 @@ body {
   color: #ed7d33;
 }
 
-#contact .subscribe, form {
+#contact .subscribe,
+form {
   text-align: center;
   margin-top: 20px;
 }
@@ -434,12 +450,11 @@ body {
   margin: 40px auto;
   border: 1px solid #ed7d33;
   font-weight: bold;
-  color: #ed7d33
+  color: #ed7d33;
 }
 
 .form button:hover {
   background-color: #c45c17;
-
 }
 
 #footer {
@@ -461,7 +476,7 @@ body {
   color: #ed7d33;
 }
 
-#footer .footertext{
+#footer .footertext {
   color: #ffffff;
   line-height: 5px;
 }
@@ -469,6 +484,12 @@ body {
 @media (max-width: 346px) {
   #tour .tix {
     margin: 10px 0 10px 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  #story article {
+    font-size: 1rem;
   }
 }
 
@@ -481,18 +502,20 @@ body {
     display: none;
   }
 
-  #story .storytext {
-    font-size: 1.1rem;
-    text-align: justify;
-    margin: auto;
+  #story img {
+    width: 80%;
+    margin-top: 80px;
   }
 
+  #story article {
+    text-align: justify;
+  }
+
+  /* Section - TOUR DATES */
   #tour .tdbutton button {
     position: relative;
     left: 100px;
   }
-
-  /* #footer  */
 }
 
 @media (min-width: 1200px) {
