@@ -389,9 +389,9 @@ button:focus {
 
 /* Section: Contact */
 #contact h3 {
+  font-family: 'Poppins', sans-serif;
   margin: 20px auto;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
 }
 
 #contact .asian-title {
