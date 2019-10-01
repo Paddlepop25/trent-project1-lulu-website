@@ -7,6 +7,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+
 }
 
 /* Start of Navbar */
@@ -129,7 +131,9 @@ button:focus {
 #story article {
   width: 70%;
   margin: auto;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 #story .shout {
@@ -141,13 +145,15 @@ button:focus {
 #story a {
   color: #ed7d33;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
 }
 /* End of Story of Lulu */
 
 /* Section: Tour */
 #tour h3 {
   margin: 30px auto;
+  font-family: 'Rubik', sans-serif;
 }
 
 #tour p {
@@ -263,6 +269,7 @@ button:focus {
 #lifeinpics h3 {
   margin: 20px auto;
   text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 
 #lifeinpics img {
@@ -274,6 +281,7 @@ button:focus {
 #lifeinpics article {
   width: 80%;
   margin: auto;
+  font-family: 'Poppins', sans-serif;
 }
 
 #lifeinpics .lifetext {
@@ -286,6 +294,7 @@ button:focus {
   color: #ed7d33;
   font-size: 0.9rem;
   text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .parallax2 {
@@ -302,6 +311,7 @@ button:focus {
 #music h3 {
   margin-top: 20px;
   text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 
 .musicmobileview img {
@@ -317,6 +327,7 @@ button:focus {
   text-align: center;
   text-decoration: none;
   font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .musicmobileview a:hover {
@@ -380,9 +391,11 @@ button:focus {
 #contact h3 {
   margin: 20px auto;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 #contact .asian-title {
+  font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
   margin: 10px 0 15px 0;
 }
@@ -408,6 +421,7 @@ button:focus {
 }
 
 #contact .notable-title {
+  font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
   margin: 30px 0 5px 0;
 }
@@ -528,19 +542,7 @@ form {
 }
 
 @media (min-width: 768px) {
-  /* #contact h3 {
-    font-size: 2rem;
-  } */
-  /* #contact .fan .asian-fanclub {
-    margin: auto;
-    background: red; 
-    position: relative;
-    top: 100px;
-  }
-
-  #contact > .row .columns:first-child {
-    font-size: 3rem;
-    background: red;
+  /* .col-12, .col-md-6, .fan {
     margin: auto;
   } */
 }
@@ -557,18 +559,21 @@ form {
 
   #story article {
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   #story .shout {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   #story a {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   #lifeinpics h3 {
     text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   .musictabletview img, .musicdesktopview img {
