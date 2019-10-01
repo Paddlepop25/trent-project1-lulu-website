@@ -141,7 +141,7 @@ button:focus {
 #story a {
   color: #ed7d33;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 /* End of Story of Lulu */
 
@@ -203,9 +203,8 @@ button:focus {
   vertical-align: middle;
 }
 
-#tour .tdbutton button {
-  position: relative;
-  left: 10px;
+#tour .tdbutton {
+  text-align: right;
 }
 
 #tour .ticket {
@@ -520,7 +519,7 @@ form {
   #story .shout {
     font-size: 1.3rem;
   }
-  
+
   #story a {
     font-size: 0.9rem;
   }
@@ -534,15 +533,11 @@ form {
 } */
 
 @media (min-width: 992px) {
-  /* .navbar #navbarNavDropdown {
-    margin: 100px auto;
-  } */
-
   #story img {
     width: 80%;
     margin-top: 80px;
   }
-  
+
   #story article {
     text-align: justify;
     font-size: 1.3rem;
@@ -550,25 +545,13 @@ form {
   #story .shout {
     font-size: 1.6rem;
   }
-  
+
   #story a {
     font-size: 1.2rem;
   }
 
   #lifeinpics h3 {
     text-align: left;
-  }
-
-  /* Section - TOUR DATES */
-  /* #tour .table .tdbutton {
-    float: right;
-    background: red;
-  } */
-  
-  #tour .tdbutton button {
-    position: relative;
-    left: 100px;
-    /* background: red; */
   }
 
   .musictabletview img, .musicdesktopview img {
@@ -582,10 +565,10 @@ form {
 }
 
 @media (min-width: 1200px) {
-  #tour .tdbutton button {
+  /* #tour .tdbutton button {
     position: relative;
     left: 170px;
-  }
+  } */
 
   #lifeinpics .lifetext {
     font-size: 1.1rem;
