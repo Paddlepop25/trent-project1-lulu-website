@@ -44,10 +44,6 @@ body {
   padding-left: 20px;
 }
 
-.navbar #navbarNavDropdown {
-  margin: 20px auto;
-}
-
 #navbarDropdownMenuLink {
   color: #ffffff;
 }
@@ -106,6 +102,10 @@ button:focus {
 
 .carousel-pic .carousel-item img {
   filter: grayscale(100%);
+}
+
+.carousel-pic .carousel-item .carousel-caption {
+  bottom: 50px;
 }
 
 .circle-arrow {
@@ -258,6 +258,7 @@ button:focus {
   filter: grayscale(100%);
   margin: 70px 0 100px 0;
 }
+
 /* Section: Life in Pictures */
 #lifeinpics h3 {
   margin: 20px auto;
@@ -391,8 +392,6 @@ button:focus {
   line-height: 30px;
   font-size: 1rem;
   text-align: left;
-  /* margin: 0 auto; */
-  /* padding-left: 10px; */
 }
 
 #contact .asian-fanclub li i {
@@ -476,11 +475,12 @@ form {
 #footer .footersocialmedia {
   margin-top: 30px;
   margin-bottom: 20px;
+  font-size: 0.9rem;
 }
 
 #footer .footersocialmedia i {
   color: #ffffff;
-  padding: 0 20px;
+  padding: 0 13px;
 }
 
 #footer .footersocialmedia i:hover {
@@ -490,6 +490,7 @@ form {
 #footer .footertext {
   color: #ffffff;
   line-height: 5px;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 346px) {
@@ -505,12 +506,13 @@ form {
     display: none;
 }
 
-/* @media (max-width: 346px) {
-  .footer .footersocialmedia a {
-    font-size: 0.1rem;
-    background: red;
+  #contact h4 {
+    font-size: 1.3rem;
   }
-} */
+
+  #footer .footersocialmedia i {
+    padding: 10px;
+  }
 
 @media (min-width: 576px) {
   #story article {
@@ -525,14 +527,29 @@ form {
   }
 }
 
-/* @media (min-width: 768px) {
-  #contact .notable-news .notable-title {
-    margin: 10px 0 5px 0;
-    background: red;
+@media (min-width: 768px) {
+  /* #contact h3 {
+    font-size: 2rem;
+  } */
+  /* #contact .fan .asian-fanclub {
+    margin: auto;
+    background: red; 
+    position: relative;
+    top: 100px;
   }
-} */
+
+  #contact > .row .columns:first-child {
+    font-size: 3rem;
+    background: red;
+    margin: auto;
+  } */
+}
 
 @media (min-width: 992px) {
+  .carousel-pic .carousel-item,.active .view img {
+    height: 50vh !important;
+  }
+
   #story img {
     width: 80%;
     margin-top: 80px;
@@ -565,11 +582,6 @@ form {
 }
 
 @media (min-width: 1200px) {
-  /* #tour .tdbutton button {
-    position: relative;
-    left: 170px;
-  } */
-
   #lifeinpics .lifetext {
     font-size: 1.1rem;
   }
