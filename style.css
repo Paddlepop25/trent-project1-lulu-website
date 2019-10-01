@@ -24,7 +24,7 @@ body {
   color: #ed7d33;
 }
 
-.navbar-brand img {
+#home .navbar-brand {
   width: 50px;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .navbar #navbarNavDropdown {
-  margin: 50px 0 90px 0;
+  margin: 20px auto;
 }
 
 #navbarDropdownMenuLink {
@@ -74,12 +74,11 @@ button:focus {
 .navbar .navbar-collapse .dropdownsocialmedia {
   text-align: center;
   font-size: 0.9rem;
-  /* display: none; */
 }
 
 .navbar .navbar-collapse .dropdownsocialmedia a i {
   color: #ffffff;
-  margin: 30px 10px;
+  margin: 50px 10px;
 }
 
 .navbar .navbar-collapse .dropdownsocialmedia a i:hover {
@@ -507,6 +506,13 @@ form {
     display: none;
 }
 
+/* @media (max-width: 346px) {
+  .footer .footersocialmedia a {
+    font-size: 0.1rem;
+    background: red;
+  }
+} */
+
 @media (min-width: 576px) {
   #story article {
     font-size: 1rem;
@@ -528,13 +534,9 @@ form {
 } */
 
 @media (min-width: 992px) {
-  .navbar #navbarNavDropdown {
-    margin: 0 auto;
-  }
-
-  .navbar .navbar-collapse  .dropdownsocialmedia {
-    display: none;
-  }
+  /* .navbar #navbarNavDropdown {
+    margin: 100px auto;
+  } */
 
   #story img {
     width: 80%;
@@ -558,16 +560,22 @@ form {
   }
 
   /* Section - TOUR DATES */
+  /* #tour .table .tdbutton {
+    float: right;
+    background: red;
+  } */
+  
   #tour .tdbutton button {
     position: relative;
     left: 100px;
+    /* background: red; */
   }
 
   .musictabletview img, .musicdesktopview img {
     width: 100%;
     max-width: 300px;
   }
-  
+
   .musictabletview a, .musicdesktopview a {
     font-size: 1.3rem;
   }
