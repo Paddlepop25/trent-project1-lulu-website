@@ -102,12 +102,8 @@ button:focus {
   color: #ed7d33;
 }
 
-.carousel-pic .carousel-item img {
-  filter: grayscale(100%);
-}
-
 .carousel-pic .carousel-item .carousel-caption {
-  bottom: 50px;
+  bottom: 70px;
 }
 
 .circle-arrow {
