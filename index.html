@@ -10,14 +10,13 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/0cd9398b96.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Mansalva|Rubik|Poppins|Roboto|Ubuntu&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- Start of Navbar -->
+  <!-- Start of Navbar section-->
   <section id="home">
     <nav class="navbar navbar-custom navbar-expand-lg sticky-top">
       <img src="images/lululogo.png" alt="" class="navbar-brand">
@@ -70,16 +69,14 @@
         </div>
       </div>
     </nav>
-    <!-- End of Navbar -->
+    <!-- End of Navbar section -->
 
-    <!-- Start of Carousel -->
+    <!-- Start of Carousel section -->
     <div class="carousel-pic">
-      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+      <div id="carouselCaptions" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-interval="4000">
-            <div class="view">
               <img src="images/concert02.jpg" class="d-block w-100" alt="...">
-            </div>
             <div class="carousel-caption d-none d-md-block">
               <h5>Edison Square Garden</h5>
             </div>
@@ -97,18 +94,18 @@
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
           <i class="fas fa-angle-left fa-2x carousel-previous"></i>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
           <i class="fas fa-angle-right fa-2x carousel-next"></i>
         </a>
       </div>
     </div>
   </section>
-  <!-- End of Carousel -->
+  <!-- End of Carousel section -->
 
-  <!-- Start of Brief Story of Lulu -->
+  <!-- Start of Story of Lulu section -->
   <section id="story">
     <div class="container">
       <div class="row">
@@ -126,12 +123,11 @@
       </div>
     </div>
   </section>
+  <!-- End of Story of Lulu section -->
 
-  <!-- End of Brief Story of Lulu -->
-
-  <!-- Start of Tour Dates -->
+  <!-- Start of Tour Dates section -->
+  <!-- Start of Mobile view -->
   <section id="tour">  
-    <!-- Start of Mobile Tour Dates -->
     <div class="card text-center bg-transparent mb-2 d-md-none mx-auto">
       <div class="card-body">
         <h3>TOUR DATES</h3>
@@ -160,9 +156,9 @@
         <a href="#" class="btn vip">VIP Upgrade</a>
       </div>
     </div>
-    <!-- End of Mobile Tour Dates --> 
+    <!-- End of Mobile view --> 
 
-    <!-- Start of Tablet and Desktop Tour Dates -->
+    <!-- Start of Tablet, Desktop view -->
     <div class="container d-none d-md-block">
       <h3>TOUR DATES</h3>
       <table class="table">
@@ -269,10 +265,10 @@
         </tbody>
       </table>
     </div> 
-    <!-- End of Tablet and Desktop Tour Dates -->
+    <!-- End of Tablet, Desktop view -->
     <button type="button" class="btn btn-lg btn-block viewalldates">View All Dates</button>
   </section>  
-  <!-- End of Tour Dates -->
+  <!-- End of Tour Dates section -->
 
   <div class="parallax1"></div>
 
@@ -316,12 +312,14 @@
     </div>
   </section>
   <!-- End of Life in Pictures -->
+
   <div class="parallax2"></div>
-  <!-- Start of Music -->
+
+  <!-- Start of Music section-->
   <section id="music">
     <div class="container">
-      <!-- Mobile View -->
       <h3>MUSIC</h3>
+      <!-- Mobile View -->
       <div class="row">
         <div class="col-12 d-md-none text-center">
           <div class="musicmobileview">
@@ -363,6 +361,7 @@
           </div>
         </div>
       </div>
+
       <!-- Desktop View -->
       <div class="row">
         <div class="col-12 d-none d-lg-block col-lg-4 text-center">
@@ -390,15 +389,14 @@
       <button type="button" class="btn btn-lg btn-block">View All CDs</button>
     </div>
   </section>
-  <!-- End of Music -->
-  <!-- Start of Form -->
+  <!-- End of Music section-->
+
+  <!-- Start of Form section-->
   <section id="contact">
     <div class="container">
       <h3>CONTACT</h3>
       <div class="row">
-        <div class="col-12 col-md-6 fan">
-          <!-- <div class="col-12 col-md-6" style="
-            margin: auto;"> -->
+        <div class="col-12 col-md-6 offset-md-3 col-lg-6 offset-lg-4">
           <div class="asian-fanclub">
             <ul>
               <li class="asian-title">The Asian Lulu Fan Club</li>
@@ -411,8 +409,10 @@
             </ul>
           </div>
         </div>
+      </div>
 
-        <div class="col-12 col-md-6">
+      <div class="row">
+        <div class="col-12 col-md-6 offset-md-3 col-lg-6 offset-lg-4">
           <div class="notable-news">
             <ul>
               <li class="notable-title">Notable News</li>
@@ -435,6 +435,45 @@
           </div>
         </div>
       </div>
+
+      <!-- <div class="row">
+        <div class="col-12">
+          <div class="asian-fanclub">
+            <ul>
+              <li class="asian-title">The Asian Lulu Fan Club</li>
+              <li><i class="far fa-address-book"></i> P.O.Box 597, Singapore 810597</li>
+              <li><i class="fas fa-phone-alt"></i> +65 90210456</li>
+              <li><i class="fas fa-pencil-alt"></i> luluasianfanclub@gmail.com</li>
+              <li><i class="fas fa-desktop"></i><a href="https://www.luluofficial.com/">
+                  https://www.luluofficial.com/</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="notable-news">
+            <ul>
+              <li class="notable-title">Notable News</li>
+              <li>
+                <span>
+                  <a href="https://www.express.co.uk/celebrity-news/1180943/Lulu-news-tour-latest-british-pop"
+                    target="_blank">"Now I finally know who I am..."</a>
+                </span>
+                <p>September 22, 2019</p>
+              </li>
+              <li>
+                <span>
+                  <a href="https://www.irishnews.com/magazine/entertainment/2018/11/03/news/lulu-at-70-singer-celebrates-landmark-birthday-1476005/"
+                    target="_blank">Singer
+                    Lulu is celebrating her 70th birthday</a>
+                </span>
+                <p>November 3, 2018</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
 
       <div class="row subscribe">
         <div class="col-12 col-md-6 offset-md-3">
@@ -486,6 +525,7 @@
     </div>
   </section>
   <!-- End of Footer -->
+  <script src="https://kit.fontawesome.com/0cd9398b96.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
