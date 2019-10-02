@@ -334,7 +334,7 @@ button:focus {
   color: #ed7d33;
 }
 
-.musictabletview img {
+.music-tabletdesktop-view img {
   margin: 30px 0 10px 0;
   width: 100%;
   max-width: 300px;
@@ -342,7 +342,7 @@ button:focus {
   box-shadow: 15px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-.musictabletview a {
+.music-tabletdesktop-view a {
   display: block;
   color: #ffffff;
   text-align: center;
@@ -350,27 +350,7 @@ button:focus {
   font-size: 1.1rem;
 }
 
-.musictabletview a:hover {
-  color: #ed7d33;
-}
-
-.musicdesktopview img {
-  margin: 30px 0 10px 0;
-  width: 100%;
-  max-width: 300px;
-  border-radius: 50%;
-  box-shadow: 15px 10px 25px rgba(0, 0, 0, 0.5);
-}
-
-.musicdesktopview a {
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1.1rem;
-}
-
-.musicdesktopview a:hover {
+.music-tabletdesktop-view a:hover {
   color: #ed7d33;
 }
 
@@ -392,13 +372,6 @@ button:focus {
   font-family: 'Poppins', sans-serif;
   margin: 100px 0 20px 0;
   text-align: center;
-}
-
-#contact .asian-fanclub .asian-title, .asian-fanclub ul, .asian-fanclub ul li {
-  /* margin: 50px auto; */
-  /* position: relative; */
-  /* background: red; */
-  /* left: 20%; */
 }
 
 #contact .asian-title {
