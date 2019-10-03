@@ -352,6 +352,11 @@ button:focus {
   box-shadow: 15px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
+.music-tabletdesktop-view img:hover {
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out;
+}
+
 .music-tabletdesktop-view a {
   display: block;
   color: #ffffff;
