@@ -36,6 +36,10 @@ body {
   font-size: 2.2rem;
 }
 
+.navbar .navbar-toggler i:hover {
+  color: #c45c17;
+}
+
 .navbar button span:focus {
   box-shadow: none;
   outline: none;
@@ -144,6 +148,10 @@ button:focus {
   text-decoration: none;
   font-size: 1rem;
   font-family: 'Ubuntu', sans-serif;
+}
+
+#story a:hover {
+  color: #c45c17;
 }
 /* End of Story of Lulu */
 
@@ -295,6 +303,10 @@ button:focus {
   font-family: 'Ubuntu', sans-serif;
 }
 
+#lifeinpics p a:hover {
+  color: #c45c17;
+}
+
 .parallax2 {
   background-image: url("images/concert05.jpg");
   height: 500px;
@@ -390,12 +402,12 @@ button:focus {
 } 
 
 #contact .asian-fanclub li a {
-  color: #ffffff;
+  color: #ed7d33;
   text-decoration: none;
 }
 
 #contact .asian-fanclub li a:hover {
-  color: #ed7d33;
+  color: #c45c17;
 }
 
 #contact .notable-title {
@@ -413,18 +425,18 @@ button:focus {
 
 #contact .notable-news a {
   text-decoration: none;
-  color: #ffffff;
+  color: #ed7d33;
   font-style: italic;
   font-size: 1rem;
 }
 
 #contact .notable-news a:hover {
-  color: #ed7d33;
+  color: #c45c17;
 }
 
 #contact .notable-news p {
   font-size: 0.9rem;
-  color: #ed7d33;
+  color: #ffffff;
 }
 
   #contact .contact-info .asian-fanclub {
