@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -429,14 +430,6 @@ button:focus {
     margin-top: 30px;
   }
 
-  /* #contact .mapouter {
-    position: relative;
-    text-align: right;
-    height: 300px;
-    width: 400px;
-    margin: auto;
-  } */
-
   #contact .contact-map {
     margin: auto;
   }
@@ -504,6 +497,24 @@ form {
   line-height: 5px;
   font-size: 0.9rem;
 }
+
+  /* Scroll button */
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 99;
+    border-radius: 50%;
+    color: #ed7d33;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  #myBtn:hover {
+    background-color: #c45c17;
+    color: #000000;
+  }
 
 @media (max-width: 346px) {
   #tour .tix {
