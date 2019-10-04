@@ -333,7 +333,7 @@ button:focus {
 
 .musicmobileview a {
   display: block;
-  color: #ffffff;
+  color: #ed7d33;
   text-align: center;
   text-decoration: none;
   font-size: 1.1rem;
@@ -341,7 +341,7 @@ button:focus {
 }
 
 .musicmobileview a:hover {
-  color: #ed7d33;
+  color: #c45c17;
 }
 
 .music-tabletdesktop-view img {
@@ -359,14 +359,14 @@ button:focus {
 
 .music-tabletdesktop-view a {
   display: block;
-  color: #ffffff;
+  color: #ed7d33;
   text-align: center;
   text-decoration: none;
   font-size: 1.1rem;
 }
 
 .music-tabletdesktop-view a:hover {
-  color: #ed7d33;
+  color: #c45c17;
 }
 
 #music button {
