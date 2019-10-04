@@ -34,3 +34,54 @@ Riding on information of her dazzling musical career, information of some of her
 The first parallax image is introduced to suggest to the user a closer look of the audience in Lulu's concerts enjoying themselves and professing their love and admiration for the singer. I deliberately chose audience with hands raised in the air because that is what audiences usually do when they sing along to a familiar song or when they cheer for the singer. 
 
 The [life in pictures](https://paddlepop25.github.io/trent-project1-lulu-website/#lifeinpics) section give a brief description of some of Lulu's acheivements over the years with accompanying pictures, because a picture tell a thousand words. A "read more" link is provided for the user to find out more information. The images in this section were strategically placed so they show a transition of a teen Lulu, a young adult Lulu and an older lady Lulu. Also, the first and last pictures are considerably longer in height than the middle one and in the bigger screens, they seem to 'wrap' around the center picture.
+
+A second parallax of an image with bright light and hands raised brings the user back to Lulu's music theme, and this is followed by the [music](https://paddlepop25.github.io/trent-project1-lulu-website/#music) section with various cd covers and the respective titles. Due to space constraint, I limited the number of cds for small screens, and featured more for medium and larger screens. The images of the cd covers were deliberately placed to have the ones close to greyscale placed in the center, the top row featuring those with reddish tones and the bottom row featuring those with greenish tones. When the cd images are hovered over, it does a little spin dance to inject an element of surprise to the user. The cd titles are linked to amazon so the user could purchase the cd if he/she wishes to. Since the title is a link, when hovered over, it changes color to indicate a call of action from the use. 
+
+## Features ##
+
+Features on this website are:
+
+* The links in the navigation bar changes to the theme color when hovered over to indicate that it is a link that the user could click on. This brings them to different sections of the website
+* I introduced a smooth scrolling effect so the transition to another section of the website is not a "in your face" effect. This applies to the scroll-up button at the bottom right side of the website as well
+* When hovering over any links, the cursor changes from a pointer to a hand to indicate that it is not a static word. An action could be made on the link to give the user more information
+* A scroll button is provided at the bottom right hand side of the screen to allow the user to scroll to the top of the page without he/she having to manually scroll upwards
+* The music section has a short, fun surprise for the user when he/she hovers over it, to stimulate a cd or laser disc spinning. The title of the cd is provided below and it is in the theme orange color which would enable the user to view more information on amazon as well as purchase the cd
+* A form is provided for the user to be updated on news of Lulu as well as contact details if he/she wishes to have a reply from an administrator of the fan club.
+* The google map indicates a venue where Lulu's concert is held
+* A social media section is displayed in the footer section which allows the user to look at more Lulu photos and news instantly
+
+Future features
+* Display a few videos of Lulu's most famous and notable performances
+* Quotes from producers, musicians and other notable artistes whom have worked with Lulu displayed in a picture montage with eye catching styling
+* Provide a short clip of some of Lulu's songs when each cd is being hovered over in the music section
+
+## Technologies Used ##
+
+Here are a list of technologies, programming languages and frameworks used for this website.
+
+* HTML5
+* CSS3
+* JavaScript
+* JQuery
+* Markdown
+    * Used for writing this README.md file.
+* [Visual Studio Code](https://code.visualstudio.com/)
+    * Visual Studio Code was the IDE used to write the code for this website.   
+* [Bootstrap4.3.1 framework](https://getbootstrap.com/)
+    * The website uses boostrap framework for it's grid system, pagelayout, button styling and responsive navigation bar.
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+    * For social media icons and Glyphicons
+* [Favicon & App Icon Generator](https://www.favicon-generator.org/)
+    * To generate Lulu's favicon
+* [Mockflow](https://mockflow.com/)
+    * This was used to design and create the wireframes for this project.
+* Git
+    * Version control
+* [Github](https://github.com)
+* Google Chrome Developer Tools
+* Firefox Inspector
+* Safari
+
+## Testing ##
+
