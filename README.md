@@ -35,6 +35,7 @@ The first parallax image is introduced to suggest to the user a closer look of t
 
 The [life in pictures](https://paddlepop25.github.io/trent-project1-lulu-website/#lifeinpics) section give a brief description of some of Lulu's acheivements over the years with accompanying pictures, because a picture tell a thousand words. A "read more" link is provided for the user to find out more information. The images in this section were strategically placed so they show a transition of a teen Lulu, a young adult Lulu and an older lady Lulu. Also, the first and last pictures are considerably longer in height than the middle one and in the bigger screens, they seem to 'wrap' around the center picture.
 
+
 A second parallax of an image with bright light and hands raised brings the user back to Lulu's music theme, and this is followed by the [music](https://paddlepop25.github.io/trent-project1-lulu-website/#music) section with various cd covers and the respective titles. Due to space constraint, I limited the number of cds for small screens, and featured more for medium and larger screens. The images of the cd covers were deliberately placed to have the ones close to greyscale placed in the center, the top row featuring those with reddish tones and the bottom row featuring those with greenish tones. When the cd images are hovered over, it does a little spin dance to inject an element of surprise to the user. The cd titles are linked to amazon so the user could purchase the cd if he/she wishes to. Since the title is a link, when hovered over, it changes color to indicate a call of action from the use. 
 
 ## Features ##
@@ -85,3 +86,96 @@ Here are a list of technologies, programming languages and frameworks used for t
 
 ## Testing ##
 
+I tested this website on different web browsers and on different devices. I also requested friends and co-workers for feedback on what they liked and didn't like about this website. Adjustments were made accordingly until the final product upon project submission.
+
+Devices:
+* iPad 3
+    * Safari
+* MacBook Pro
+    * Google Chrome
+    * Firefox
+    * Safari
+* Windows 10
+    * Google Chrome
+    * Firefox
+    * Mircosoft Edge
+    * IE 11
+* Samsung Galaxy 8
+    * Google Chrome
+    * Firefox
+    * Samsung web browser
+    
+    
+note: sadly, the scrolling effect is not supported in Safari browser
+parallax effect doesn't work in mobile
+A most recent article explains it [here](https://help.outofthesandbox.com/hc/en-us/articles/360001648767-Why-doesn-t-the-parallax-scrolling-effect-work-on-mobile-devices-) and strongly recommend to not include this feature because "it causes your site to "crash" user's browser apps or affect user conversions."
+Removed parallax images for small and medium devices. Visual only large onwards
+
+## Deployment ##
+
+This website was created using Visual Studio Code with BASH. Git was used for version control and [Github]((https://github.com)) hosts the repository for all commits.
+
+Please click on [Lulu | Once In A Lifetime](https://paddlepop25.github.io/trent-project1-lulu-website/) to find the deployed  website, using Github pages
+
+### How to save the project to a local computer ###
+
+These are steps to follow if you would like to run this code locally: 
+
+1. Download the code from the Github repository at [https://github.com/Paddlepop25/trent-project1-lulu-website](https://github.com/Paddlepop25/trent-project1-lulu-website).
+2. At the right hand side, click on green button *Clone or download* then *Download ZIP*. The repository will automatically be downloaded into a ZIP folder on your computer.
+3. Uncompress the ZIP folder. 
+4. Double click on the HTML file to open with the default browser of your computer or right click on the HTML file to choose a preferred browser
+5. The rest of the files are available if you would like to make changes to the website according to your liking
+
+## Credits ##
+
+### Codes ###
+
+* Making the CDs spin on hover from [stackoverflow](https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover)
+* Embeded google map from [embedgooglemap](https://www.embedgooglemap.net/)
+* Scroll to the top button from [stackoverflow](https://stackoverflow.com/questions/51536384/how-to-animate-scrolling-to-top-of-page-using-javascript-no-jqueryasp)
+
+### Images ###
+
+Images of Lulu
+
+1. https://www.pinterest.com/pin/198651033546146963/
+2. https://www.northernsoul.me.uk/still-waiting-to-be-discovered-pop-royalty-lulu-talks-to-northern-soul/
+3. https://www.popexpresso.com/2018/11/03/british-singer-and-actress-lulu-turns-70-today/
+4. https://www.last.fm/music/Lulu/+images/91f6988a1f344da59e92f2b077704640
+
+Images of Lulu CDs
+1. https://www.amazon.com/Sir-Love-Best-1967-1968/dp/B000089Y9L
+2. https://www.amazon.com/Lulu-World-Single-Polydor-Press/dp/B0055SFYVC
+3. https://www.amazon.com/Crayons-Perfume-Best-Lulu/dp/B0000033EZ
+4. https://www.amazon.com/Collection-Lulu/dp/B0018RCPOS
+5. https://www.discogs.com/Lulu-The-Most-Of-Lulu/release/1770838
+6. https://www.amazon.com/To-Sir-with-Love/dp/B0028300N4
+
+Carousel images
+1. https://unsplash.com/photos/m1WZS5ye404
+2.
+3.
+
+Parallax images
+1. https://unsplash.com/photos/hzgs56Ze49s
+2. https://unsplash.com/photos/X1Y9XmMq9wI
+
+
+All images for this web site are being used under free commercial license from [Pixaby](https://pixabay.com/). Links to each image are below.
+
+* 
+
+### Logo ###
+
+The logo was made in [Microsoft Word](https://products.office.com/en/word) by drawing a rectangle with the theme orange color full in and choosing the [apple chancery](https://fontsgeek.com/fonts/Apple-Chancery-Regular) font for Lulu's iconic "L."
+
+I performed a [screen shot](https://support.apple.com/en-us/HT201361) of the logo and renamed the file accordingly.
+
+### Favicon ###
+
+The favicon was made in a [favicon generator](https://www.favicon-generator.org/) using the logo.
+
+*italic*
+**bold**
+***bold-italic***
