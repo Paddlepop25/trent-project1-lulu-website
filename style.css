@@ -529,17 +529,17 @@ form {
     cursor: pointer;
     outline: none;
   }
-  
+
   #myBtn:hover {
     background-color: #c45c17;
     color: #000000;
   }
 
-  @media (min-height: 347px) and (max-width: 767px) {
+  @media (min-height: 347px) and (max-width: 991px) {
     .parallax1 {
       display: none;
     }
-  
+
     .parallax2 {
       display: none;
     }
