@@ -535,6 +535,16 @@ form {
     color: #000000;
   }
 
+  @media (min-height: 347px) and (max-width: 767px) {
+    .parallax1 {
+      display: none;
+    }
+  
+    .parallax2 {
+      display: none;
+    }
+  }
+
 @media (max-width: 346px) {
   #tour .tix {
     margin: 10px 0 10px 5px;
@@ -559,6 +569,8 @@ form {
   #footer .footersocialmedia i {
     padding: 10px;
   }
+
+  
 
 @media (min-width: 576px) {
   #story article {
