@@ -108,7 +108,7 @@ button:focus {
 }
 
 .carousel-pic .carousel-item .carousel-caption {
-  bottom: 70px;
+  bottom: 90px;
 }
 
 .circle-arrow {
@@ -400,6 +400,8 @@ button:focus {
   line-height: 30px;
   font-size: 1rem;
   text-align: left;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 #contact .asian-fanclub li i {
