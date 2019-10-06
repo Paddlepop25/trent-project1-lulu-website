@@ -131,7 +131,7 @@ button:focus {
 
 /* Section: Tour */
 #tour h3 {
-  margin: 30px auto;
+  margin: 50px 0 30px 0;
   font-family: 'Rubik', sans-serif;
   text-align: center;
 }
@@ -248,8 +248,8 @@ button:focus {
 /* Section: Life in Pictures */
 #lifeinpics h3 {
   margin: 20px auto;
-  text-align: center;
   font-family: 'Rubik', sans-serif;
+  text-align: center;
 }
 
 #lifeinpics img {
@@ -294,8 +294,8 @@ button:focus {
 
 #music h3 {
   margin-top: 20px;
-  text-align: center;
   font-family: 'Rubik', sans-serif;
+  text-align: center;
 }
 
 .musicmobileview img {
@@ -348,7 +348,7 @@ button:focus {
   color: #c45c17;
 }
 
-#music button {
+#music .viewallcds {
   width: 60%;
   margin: 40px auto;
   border: 1px solid #ed7d33;
@@ -356,15 +356,19 @@ button:focus {
   color: #ed7d33;
 }
 
-#music button:hover {
+#music .viewallcds:hover {
   background-color: #c45c17;
   color: #000000;
+  font-weight: bold;
 }
 
+#music .viewallcds:focus {
+  outline: none !important;
+}
 /* Section: Contact */
 #contact h3 {
-  font-family: 'Poppins', sans-serif;
   margin: 100px 0 20px 0;
+  font-family: 'Rubik', sans-serif;
   text-align: center;
 }
 
@@ -590,8 +594,6 @@ form {
 
   #lifeinpics h3 {
     text-align: left;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Raleway', sans-serif;
     font-family: 'Poppins', sans-serif;
   }
 
