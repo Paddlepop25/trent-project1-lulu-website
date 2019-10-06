@@ -1,0 +1,637 @@
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("/assets/images/darkwallpaper1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* Start of Navbar */
+.navbar-custom {
+  background-color: #000000 !important;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ed7d33;
+}
+
+#home .navbar-brand {
+  width: 50px;
+}
+
+.navbar button span {
+  color: #ed7d33 !important;
+  font-size: 2.2rem;
+}
+
+.navbar .navbar-toggler i:hover {
+  color: #c45c17;
+}
+
+.navbar button span:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.navbar ul li {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-left: 20px;
+}
+
+#navbarDropdownMenuLink {
+  color: #ffffff;
+}
+
+.navbar-nav .dropdown-menu {
+  text-align: center;
+  background-color: #000000;
+}
+
+.navbar-nav .dropdown-menu a {
+  color: #ffffff;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #ed7d33;
+}
+
+.navbar button:active,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar .navbar-collapse .dropdownsocialmedia {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.navbar .navbar-collapse .dropdownsocialmedia a i {
+  color: #ffffff;
+  margin: 50px 10px;
+}
+
+.navbar .navbar-collapse .dropdownsocialmedia a i:hover {
+  color: #ed7d33;
+}
+
+.socialmedia a i {
+  color: #ffffff;
+  padding: 0 10px;
+}
+
+.socialmedia a i:hover {
+  color: #ed7d33;
+}
+/* End of Navbar */
+
+/* Start of Carousel */
+.carousel-pic .carousel-previous:hover {
+  color: #ed7d33;
+}
+
+.carousel-pic .carousel-next:hover {
+  color: #ed7d33;
+}
+
+.carousel-pic .carousel-item .carousel-caption {
+  bottom: 80px;
+}
+
+.circle-arrow {
+  background: red;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ed7d33;
+  padding: 20px;
+}
+/* End of Carousel */
+
+/* Start of Story of Lulu */
+#story img {
+  width: 80%;
+  margin: 70px 0 20px 0;
+  border-radius: 35px;
+  box-shadow: -7px 12px 17px rgba(0, 0, 0, 0.5);
+}
+
+#story article {
+  width: 70%;
+  margin: auto;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+#story .shout {
+  font-size: 1.3rem;
+  position: relative;
+  top: 1px;
+}
+
+#story a {
+  color: #ed7d33;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#story a:hover {
+  color: #c45c17;
+}
+/* End of Story of Lulu */
+
+/* Section: Tour */
+#tour h3 {
+  margin: 30px auto;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+
+#tour p {
+  font-size: 1.1rem;
+}
+
+#tour .tix {
+  width: 130px;
+  background-color: #ed7d33;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+#tour .tix:hover {
+  background-color: #c45c17;
+  color: #ffffff;
+}
+
+#tour .vip {
+  width: 130px;
+  border: 1px solid #ed7d33;
+  color: #ffffff;
+  margin-left: 10px;
+  border-radius: 25px;
+}
+
+#tour .vip:hover {
+  background-color: #ed7d33;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* Tour - tablet view */
+#tour .table {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+#tour .table th,
+.table td {
+  border-top: 1px dashed rgba(190, 190, 190, 0.219);
+}
+
+#tour th {
+  vertical-align: middle;
+}
+
+#tour .tdcity {
+  vertical-align: middle;
+}
+
+#tour .tdhour {
+  vertical-align: middle;
+}
+
+#tour .tdbutton {
+  text-align: right;
+}
+
+#tour .ticket {
+  background-color: #ed7d33;
+  font-weight: bold;
+  border-radius: 20px;
+  width: 100px;
+}
+
+#tour .ticket:hover {
+  background-color: #c45c17;
+  color: #ffffff;
+}
+
+#tour .vipupgrade {
+  border: 1px solid #ed7d33;
+  color: #ffffff;
+  border-radius: 20px;
+  margin-left: 10px;
+  width: 130px;
+}
+
+#tour .vipupgrade:hover {
+  background-color: #ed7d33;
+  color: #000000;
+  font-weight: bold;
+}
+
+#tour .viewalldates {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #ed7d33;
+  font-weight: bold;
+  color: #ed7d33;
+}
+
+#tour .viewalldates:hover {
+  background-color: #c45c17;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* Parallax 1 */
+.parallax1 {
+  background-image: url("/assets/images/concert04.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  margin: 70px 0 100px 0;
+}
+
+/* Section: Life in Pictures */
+#lifeinpics h3 {
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+#lifeinpics img {
+  margin-top: 20px;
+  border-radius: 25px;
+  box-shadow: 15px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+#lifeinpics article {
+  width: 80%;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+#lifeinpics .lifetext {
+  font-style: italic;
+  font-size: 1rem;
+  margin: 10px 0 5px 0;
+}
+
+#lifeinpics p a {
+  color: #ed7d33;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#lifeinpics p a:hover {
+  color: #c45c17;
+}
+
+.parallax2 {
+  background-image: url("/assets/images/concert05.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  margin: 70px 0 100px 0;
+}
+
+#music h3 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.musicmobileview img {
+  margin: 30px 0 10px 0;
+  max-width: 260px;
+  border-radius: 50%;
+  box-shadow: 15px 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.musicmobileview a {
+  display: block;
+  color: #ed7d33;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.musicmobileview a:hover {
+  color: #c45c17;
+}
+
+.music-tabletdesktop-view img {
+  margin: 30px 0 10px 0;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+  box-shadow: 15px 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.music-tabletdesktop-view img:hover {
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.music-tabletdesktop-view a {
+  display: block;
+  color: #ed7d33;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.music-tabletdesktop-view a:hover {
+  color: #c45c17;
+}
+
+#music button {
+  width: 60%;
+  margin: 40px auto;
+  border: 1px solid #ed7d33;
+  font-weight: bold;
+  color: #ed7d33;
+}
+
+#music button:hover {
+  background-color: #c45c17;
+  color: #000000;
+}
+
+/* Section: Contact */
+#contact h3 {
+  font-family: 'Poppins', sans-serif;
+  margin: 100px 0 20px 0;
+  text-align: center;
+}
+
+#contact .asian-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  margin: 10px 0 15px 0;
+}
+
+#contact .asian-fanclub ul {
+  list-style: none;
+  line-height: 30px;
+  font-size: 1rem;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#contact .asian-fanclub li i {
+  margin-right: 15px;
+} 
+
+#contact .asian-fanclub li a {
+  color: #ed7d33;
+  text-decoration: none;
+}
+
+#contact .asian-fanclub li a:hover {
+  color: #c45c17;
+}
+
+#contact .notable-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  margin: 30px 0 5px 0;
+}
+
+#contact .notable-news ul {
+  list-style: none;
+  line-height: 30px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+#contact .notable-news a {
+  text-decoration: none;
+  color: #ed7d33;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+#contact .notable-news a:hover {
+  color: #c45c17;
+}
+
+#contact .notable-news p {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+  #contact .contact-info .asian-fanclub {
+    margin-top: 30px;
+  }
+
+  #contact .contact-map {
+    margin: auto;
+  }
+
+  #contact .gmap_canvas {
+    overflow: hidden;
+    height: 300px;
+    width: 400px;
+  }
+
+#contact .subscribe,
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#contact label {
+  display: none;
+}
+
+#contact #fname {
+  width: 70%;
+  margin: 30px auto;
+}
+
+#contact #femail {
+  width: 70%;
+  margin: auto;
+}
+
+.form button {
+  width: 60%;
+  margin: 40px auto;
+  border: 1px solid #ed7d33;
+  font-weight: bold;
+  color: #ed7d33;
+}
+
+.form button:hover {
+  background-color: #c45c17;
+}
+
+#footer {
+  height: 180px;
+  background-color: #000000;
+}
+
+#footer .footersocialmedia {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+#footer .footersocialmedia i {
+  color: #ffffff;
+  padding: 0 13px;
+}
+
+#footer .footersocialmedia i:hover {
+  color: #ed7d33;
+}
+
+#footer .footertext {
+  color: #ffffff;
+  line-height: 5px;
+  font-size: 0.9rem;
+}
+
+  /* Scroll button */
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 99;
+    border-radius: 50%;
+    border: 1px solid #ed7d33;
+    color: #ed7d33;
+    cursor: pointer;
+    outline: none;
+  }
+
+  #myBtn:hover {
+    background-color: #c45c17;
+    color: #000000;
+  }
+
+  @media (min-height: 347px) and (max-width: 991px) {
+    .parallax1 {
+      display: none;
+    }
+
+    .parallax2 {
+      display: none;
+    }
+  }
+
+@media (max-width: 346px) {
+  #tour .tix {
+    margin: 10px 0 10px 5px;
+  }
+
+  #tour .viewalldates {
+    width: 70%;
+  }
+
+  #contact .asian-fanclub ul i {
+    display: none;
+}
+
+  #contact .asian-title {
+  font-size: 1.2rem;
+}
+
+  #contact h4 {
+    font-size: 1.3rem;
+  }
+
+  #footer .footersocialmedia i {
+    padding: 10px;
+  }
+
+  
+
+@media (min-width: 576px) {
+  #story article {
+    font-size: 1rem;
+  }
+  #story .shout {
+    font-size: 1.3rem;
+  }
+
+  #story a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-pic .carousel-item,.active .view img {
+    height: 50vh !important;
+  }
+
+  #story img {
+    width: 80%;
+    margin-top: 80px;
+  }
+
+  #story article {
+    text-align: justify;
+    font-size: 1.4rem;
+  }
+  #story .shout {
+    font-size: 1.7rem;
+  }
+
+  #story a {
+    font-size: 1.3rem;
+  }
+
+  #lifeinpics h3 {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .musictabletview img, .musicdesktopview img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .musictabletview a, .musicdesktopview a {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #lifeinpics .lifetext {
+    font-size: 1.1rem;
+  }
+
+  #lifeinpics p a {
+    font-size: 1rem;
+  }
+}
