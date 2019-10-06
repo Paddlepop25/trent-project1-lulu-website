@@ -261,7 +261,7 @@ button:focus {
 
 /* Parallax 1 */
 .parallax1 {
-  background-image: url("assets/images/concert04.jpg");
+  background-image: url("/assets/images/concert04.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
