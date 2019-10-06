@@ -51,23 +51,6 @@ body {
   padding-left: 20px;
 }
 
-#navbarDropdownMenuLink {
-  color: #ffffff;
-}
-
-.navbar-nav .dropdown-menu {
-  text-align: center;
-  background-color: #000000;
-}
-
-.navbar-nav .dropdown-menu a {
-  color: #ffffff;
-}
-
-.navbar-nav .dropdown-menu .dropdown-item:hover {
-  background-color: #ed7d33;
-}
-
 .navbar button:active,
 button:focus {
   outline: none;
@@ -81,19 +64,10 @@ button:focus {
 
 .navbar .navbar-collapse .dropdownsocialmedia a i {
   color: #ffffff;
-  margin: 50px 10px;
+  margin: 50px 10px 15px 10px;
 }
 
 .navbar .navbar-collapse .dropdownsocialmedia a i:hover {
-  color: #ed7d33;
-}
-
-.socialmedia a i {
-  color: #ffffff;
-  padding: 0 10px;
-}
-
-.socialmedia a i:hover {
   color: #ed7d33;
 }
 /* End of Navbar */
