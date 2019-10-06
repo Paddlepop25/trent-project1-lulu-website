@@ -157,8 +157,11 @@ Many of the sections describing Lulu were taken from [wikipedia](https://en.wiki
 * Scroll to the top button from [stackoverflow](https://stackoverflow.com/questions/51536384/how-to-animate-scrolling-to-top-of-page-using-javascript-no-jqueryasp)
 
 ### Images ###
-Images of Lulu
 
+Background image
+1. https://www.tokkoro.com/5226227-dark-texture-grain-sand-black-pattern-ripple-textured-wallpaper-black-wallpapers-black-background-se.html
+
+Images of Lulu
 1. https://www.pinterest.com/pin/198651033546146963/
 2. https://www.northernsoul.me.uk/still-waiting-to-be-discovered-pop-royalty-lulu-talks-to-northern-soul/
 3. https://www.popexpresso.com/2018/11/03/british-singer-and-actress-lulu-turns-70-today/
@@ -174,8 +177,8 @@ Images of Lulu CDs
 
 Carousel images
 1. https://unsplash.com/photos/m1WZS5ye404
-2. 
-3.
+2. https://pixabay.com/photos/concerts-audience-spectators-lights-1150042/
+3. https://pixabay.com/photos/audience-backlit-concert-crowd-1850119/
 
 Parallax images
 1. https://unsplash.com/photos/hzgs56Ze49s
