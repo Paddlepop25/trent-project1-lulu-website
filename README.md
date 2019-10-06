@@ -9,6 +9,7 @@ A live demo of the finished project can be found [here](https://paddlepop25.gith
 ![Desktop Demo](https://raw.githubusercontent.com/Paddlepop25/trent-project1-lulu-website/master/assets/images/lulu-website.gif)
 
 ## Aim ##
+
 The aim of this project is to build a static website of an imaginary South East Asian tour of the Scottish singer Lulu. I discovered her music in my late teens and even though she was from a much older era, I found that I enjoyed many of her songs. I have not and probably would not experience her performace in a live concert so this is a figment of my imagination of which cities would have hosted her in this part of the world, as well as the materials used to introduce and promote her to the Asian audience. I named this 'Once In A Lifetime' because as the name suggest, it would be a dream come true if she would ever tour in my region.
 
 ## UX ##
@@ -72,9 +73,9 @@ Here are a list of programming languages, frameworks, technologies and tools use
 * JavaScript
 * JQuery
 * Markdown
-    * Used for writing this README.md file.
+    * Used for writing this README.md file
 * [Visual Studio Code](https://code.visualstudio.com/)
-    * Used as the IDE to write the codes for this website.   
+    * Used as the IDE to write the codes for this website   
 * [Bootstrap 4.3.1 framework](https://getbootstrap.com/)
     * Used for it's grid system, page layout with styling and responsive navigation bar.
 * [Google Fonts](https://fonts.google.com/)
@@ -82,15 +83,18 @@ Here are a list of programming languages, frameworks, technologies and tools use
 * [Font Awesome](https://fontawesome.com/)
     * Used for social media icons and other icons
 * [Favicon & App Icon Generator](https://www.favicon-generator.org/)
-    * Used for generating Lulu's favicon
-* [Mockflow](https://mockflow.com/)
-    * Used to design and create the wireframes for this project.
-* Git
+    * Used for generating Lulu's favicon 
+* [Microsoft Word](https://products.office.com/en/word) 
+    * Used for creating Lulu's brand logo by drawing a rectangle with the theme orange color full in and choosing the [apple chancery](https://fontsgeek.com/fonts/Apple-Chancery-Regular) font for Lulu's iconic "L."  * [Mockflow](https://mockflow.com/)
+    * Used to design and create the wireframes for this project
+* [Git](https://git-scm.com/)
     * Used for version control to commit to Github
 * [Github](https://github.com)
-* Google Chrome Developer Tools
-* Firefox Inspector
-* Safari
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+* [Am I Responsive?](http://ami.responsivedesign.is/?url=#)
+    * Used to see across multiple devices with different screen sizes the responsiveness of the website
+* [Screen To Gif](https://www.screentogif.com/)
+    * Used to capture the responsive screens into a gif file
 
 ## Testing ##
 This website was tested on different web browsers and on different devices. I also requested friends and co-workers for feedback on what they liked and didn't like about this website. Adjustments were made accordingly until the final product upon project submission.
@@ -118,26 +122,36 @@ Devices and browesers:
 
 Additionally, Google Chrome Devtools was used throughout the project to view this website on a number of mobile, tablet, laptop and desktop devices to ensure compatibility and responsiveness. Simulated devices include Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5 / SE, iPhone 6/7/8, iPhone 6/7/8 plus, iPhone X, iPad, and iPad Pro.
 
-All links will open in a new tab using 'target="_blank"' All links have been manually tested to ensure that they are pointing to the correct destination.
+All links will open in a new tab having used `target="_blank"` for each 'a tag.' They have been manually tested in each browser to ensure that they point to the correct destination. In cases where the links are related to ficticious information such as booking tour tickets for a Asian tour, the user is directed to Lulu's official [website](https://www.luluofficial.com/).
+
+The form's two inputs are required to be filled up, else an error message will show for each. This was achieved by adding a `required` field in the `input` tag of the form in the `index.html` form.
 
 ## Deployment ##
-This website was created using Visual Studio Code with BASH. Git was used for version control and [Github]((https://github.com)) hosts the repository for all commits.
+Git was used for version control and [Github]((https://github.com)) hosts the repository for all commits
 
-Please click on [Lulu | Once In A Lifetime](https://paddlepop25.github.io/trent-project1-lulu-website/) to find the deployed  website, using Github pages
+Please click on [Lulu | Once In A Lifetime](https://paddlepop25.github.io/trent-project1-lulu-website/) to find the deployed  website, using Github pages. The pages will automatically be updated upon new commits to the master branch
 
 ### How to save the project to a local computer ###
 These are steps to follow if you would like to run this code locally: 
 
-1. Download the code from the Github repository at [https://github.com/Paddlepop25/trent-project1-lulu-website](https://github.com/Paddlepop25/trent-project1-lulu-website).
-2. At the right hand side, click on green button *Clone or download* then *Download ZIP*. The repository will automatically be downloaded into a ZIP folder on your computer.
-3. Uncompress the ZIP folder. 
+#### Download ####
+1. Download this repository from the Github repository from [https://github.com/Paddlepop25/trent-project1-lulu-website](https://github.com/Paddlepop25/trent-project1-lulu-website)
+2. At the right hand side, click on green button *Clone or download* then *Download ZIP*. The repository will automatically be downloaded into a ZIP folder on your computer
+3. Uncompress the ZIP folder
 4. Double click on the HTML file to open with the default browser of your computer or right click on the HTML file to choose a preferred browser
 5. The rest of the files are available if you would like to make changes to the website according to your liking
 
+#### Clone ####
+1. Clone this repository from the Github repository from [https://github.com/Paddlepop25/trent-project1-lulu-website](https://github.com/Paddlepop25/trent-project1-lulu-website)
+2. At the right hand side, click on green button *Clone or download* then copy the URL shown in the input box
+3. In your IDE of choice, paste `git clone https://github.com/Paddlepop25/trent-project1-lulu-website.git` into your terminal.
+4. This repository will automatically be cloned into a folder on your computer
+5. To break the connection with this Github repository, enter `git remote rm origin` into your terminal
+
 ## Credits ##
+Many of the sections describing Lulu were taken from [wikipedia](https://en.wikipedia.org/wiki/Lulu_(singer))
 
 ### Codes ###
-
 * Making the CDs spin on hover from [stackoverflow](https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover)
 * Embeded google map from [embedgooglemap](https://www.embedgooglemap.net/)
 * Scroll to the top button from [stackoverflow](https://stackoverflow.com/questions/51536384/how-to-animate-scrolling-to-top-of-page-using-javascript-no-jqueryasp)
@@ -160,19 +174,11 @@ Images of Lulu CDs
 
 Carousel images
 1. https://unsplash.com/photos/m1WZS5ye404
-2.
+2. 
 3.
 
 Parallax images
 1. https://unsplash.com/photos/hzgs56Ze49s
 2. https://unsplash.com/photos/X1Y9XmMq9wI
-
-### Logo ###
-The logo was made in [Microsoft Word](https://products.office.com/en/word) by drawing a rectangle with the theme orange color full in and choosing the [apple chancery](https://fontsgeek.com/fonts/Apple-Chancery-Regular) font for Lulu's iconic "L."
-
-I performed a [screen shot](https://support.apple.com/en-us/HT201361) of the logo and renamed the file accordingly.
-
-### Favicon ###
-The favicon was made in a [favicon generator](https://www.favicon-generator.org/) using the logo.
 
 **This is for educational use**
