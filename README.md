@@ -6,7 +6,7 @@ By: Linda Hsu
 ## Demo
 A live demo of the finished project can be found [here](https://paddlepop25.github.io/trent-project1-lulu-website/).
 
-![Desktop Demo](https://raw.githubusercontent.com/Paddlepop25/trent-project1-lulu-website/master/assets/images/lulu-website.gif)
+![Desktop Demo](https://raw.githubusercontent.com/Paddlepop25/trent-project1-lulu-website/master/assets/images/lulu-website-updated.gif)
 
 ## Aim ##
 
@@ -85,7 +85,8 @@ Here are a list of programming languages, frameworks, technologies and tools use
 * [Favicon & App Icon Generator](https://www.favicon-generator.org/)
     * Used for generating Lulu's favicon 
 * [Microsoft Word](https://products.office.com/en/word) 
-    * Used for creating Lulu's brand logo by drawing a rectangle with the theme orange color full in and choosing the [apple chancery](https://fontsgeek.com/fonts/Apple-Chancery-Regular) font for Lulu's iconic "L."  * [Mockflow](https://mockflow.com/)
+    * Used for creating Lulu's brand logo by drawing a rectangle with the theme orange color full in and choosing the [apple chancery](https://fontsgeek.com/fonts/Apple-Chancery-Regular) font for Lulu's iconic "L."
+* [Mockflow](https://mockflow.com/)
     * Used to design and create the wireframes for this project
 * [Git](https://git-scm.com/)
     * Used for version control to commit to Github
@@ -149,7 +150,7 @@ These are steps to follow if you would like to run this code locally:
 5. To break the connection with this Github repository, enter `git remote rm origin` into your terminal
 
 ## Credits ##
-Many of the sections describing Lulu were taken from [wikipedia](https://en.wikipedia.org/wiki/Lulu_(singer)) and [imdb](https://www.imdb.com/name/nm0525801/bio)
+Many of the sections describing Lulu were taken from [wikipedia](https://en.wikipedia.org/wiki/Lulu_(singer))
 
 ### Codes ###
 * Making the CDs spin on hover from [stackoverflow](https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover)
