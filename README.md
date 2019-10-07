@@ -149,7 +149,7 @@ These are steps to follow if you would like to run this code locally:
 5. To break the connection with this Github repository, enter `git remote rm origin` into your terminal
 
 ## Credits ##
-Many of the sections describing Lulu were taken from [wikipedia](https://en.wikipedia.org/wiki/Lulu_(singer))
+Many of the sections describing Lulu were taken from [wikipedia](https://en.wikipedia.org/wiki/Lulu_(singer)) and [imdb](https://www.imdb.com/name/nm0525801/bio)
 
 ### Codes ###
 * Making the CDs spin on hover from [stackoverflow](https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover)
