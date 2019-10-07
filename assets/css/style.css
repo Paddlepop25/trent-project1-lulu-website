@@ -80,7 +80,7 @@ button:focus {
 }
 
 .carousel-pic .carousel-item .carousel-caption {
-  bottom: 80px;
+  bottom: 70px;
 }
 
 .circle-arrow {
@@ -555,7 +555,7 @@ form {
   #story article {
     font-size: 1rem;
   }
-  
+
   #story .shout {
     font-size: 1.3rem;
   }
@@ -566,10 +566,6 @@ form {
 }
 
 @media (min-width: 992px) {
-  .carousel-pic .carousel-item,.active .view img {
-    height: 50vh !important;
-  }
-
   #story img {
     width: 80%;
     margin-top: 80px;
