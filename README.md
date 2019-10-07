@@ -123,6 +123,8 @@ Devices and browesers:
 
 Additionally, Google Chrome Devtools was used throughout the project to view this website on a number of mobile, tablet, laptop and desktop devices to ensure compatibility and responsiveness. Simulated devices include Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5 / SE, iPhone 6/7/8, iPhone 6/7/8 plus, iPhone X, iPad, and iPad Pro.
 
+I found that a standard font size does not work for all screen sizes, so I added a 'base' `font-size: 16px` on the `html` in the css file, and adjusted accordingly. For special cases, I used media queries as well.
+
 All links will open in a new tab having used `target="_blank"` for each 'a tag.' They have been manually tested in each browser to ensure that they point to the correct destination. In cases where the links are related to ficticious information such as booking tour tickets for a Asian tour, the user is directed to Lulu's official [website](https://www.luluofficial.com/).
 
 The form's two inputs are required to be filled up, else an error message will show for each. This was achieved by adding a `required` field in the `input` tag of the form in the `index.html` form.
@@ -150,7 +152,7 @@ These are steps to follow if you would like to run this code locally:
 5. To break the connection with this Github repository, enter `git remote rm origin` into your terminal
 
 ## Credits ##
-Many of the sections describing Lulu were taken from [wikipedia](https://en.wikipedia.org/wiki/Lulu_(singer))
+Many of the sections describing Lulu were taken from [wikipedia](https://en.wikipedia.org/wiki/Lulu_(singer)) as well as [imdb](https://www.imdb.com/name/nm0525801/bio).
 
 ### Codes ###
 * Making the CDs spin on hover from [stackoverflow](https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover)
