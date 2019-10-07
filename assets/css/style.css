@@ -39,11 +39,6 @@ body {
   color: #c45c17;
 }
 
-.navbar button span:focus {
-  box-shadow: none;
-  outline: none;
-}
-
 .navbar ul li {
   font-size: 1.2rem;
   text-align: center;
@@ -71,25 +66,16 @@ button:focus {
 }
 
 /* Section: Carousel */
+.carousel-pic .carousel-item .carousel-caption {
+  bottom: 70px;
+}
+
 .carousel-pic .carousel-previous:hover {
   color: #ed7d33;
 }
 
 .carousel-pic .carousel-next:hover {
   color: #ed7d33;
-}
-
-.carousel-pic .carousel-item .carousel-caption {
-  bottom: 70px;
-}
-
-.circle-arrow {
-  background: red;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  border: 2px solid #ed7d33;
-  padding: 20px;
 }
 
 /* Section: Story of Lulu */
@@ -116,7 +102,7 @@ button:focus {
 #story a {
   color: #ed7d33;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -261,7 +247,6 @@ button:focus {
 
 #lifeinpics .lifetext {
   font-style: italic;
-  font-size: 1rem;
   margin: 10px 0 5px 0;
 }
 
@@ -571,18 +556,6 @@ form {
 }
 
 @media (min-width: 768px) {
-  #story article {
-    font-size: 1.1rem;
-  }
-
-  #story .shout {
-    font-size: 1.4rem;
-  }
-
-  #story a {
-    font-size: 1rem;
-  }
-
   #tour h3 {
     margin-top: 30px;
   }
