@@ -13,7 +13,7 @@ body {
 
 /* Section: Navbar */
 .navbar-custom {
-  background-color: #000000 !important;
+  background-color: #000000;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -27,11 +27,11 @@ body {
 }
 
 #home .navbar-brand {
-  width: 50px;
+  width: 40px;
 }
 
 .navbar button span {
-  color: #ed7d33 !important;
+  color: #ed7d33;
   font-size: 2.2rem;
 }
 
@@ -58,7 +58,7 @@ button:focus {
 
 .navbar .navbar-collapse .dropdownsocialmedia {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .navbar .navbar-collapse .dropdownsocialmedia a i {
@@ -103,12 +103,12 @@ button:focus {
 #story article {
   width: 70%;
   margin: auto;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-family: 'Poppins', sans-serif;
 }
 
 #story .shout {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   position: relative;
   top: 1px;
 }
@@ -116,7 +116,7 @@ button:focus {
 #story a {
   color: #ed7d33;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -126,7 +126,7 @@ button:focus {
 
 /* Section: Tour */
 #tour h3 {
-  margin: 50px 0 30px 0;
+  margin-bottom: 20px;
   font-family: 'Rubik', sans-serif;
   text-align: center;
 }
@@ -164,7 +164,7 @@ button:focus {
 /* Tour - tablet view */
 #tour .table {
   color: #ffffff;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 #tour .table th,
@@ -242,7 +242,7 @@ button:focus {
 
 /* Section: Life in Pictures */
 #lifeinpics h3 {
-  margin: 20px auto;
+  margin: 50px 0 20px 0;
   font-family: 'Rubik', sans-serif;
   text-align: center;
 }
@@ -290,7 +290,7 @@ button:focus {
 
 /* Section: music */
 #music h3 {
-  margin-top: 20px;
+  margin-top: 50px;
   font-family: 'Rubik', sans-serif;
   text-align: center;
 }
@@ -312,7 +312,6 @@ button:focus {
   color: #ed7d33;
   text-align: center;
   text-decoration: none;
-  font-size: 1.1rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -361,24 +360,25 @@ button:focus {
 
 /* Section: Contact */
 #contact h3 {
-  margin: 100px 0 20px 0;
+  margin: 70px 0 20px 0;
   font-family: 'Rubik', sans-serif;
   text-align: center;
 }
 
 #contact .asian-title {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 10px 0 15px 0;
 }
 
 #contact .asian-fanclub ul {
   list-style: none;
   line-height: 30px;
-  font-size: 1rem;
   text-align: left;
   color: #ffffff;
   text-decoration: none;
+  font-size: 1.1rem;
+
 }
 
 #contact .asian-fanclub li i {
@@ -388,6 +388,7 @@ button:focus {
 #contact .asian-fanclub li a {
   color: #ed7d33;
   text-decoration: none;
+  font-size: 1.1rem;
 }
 
 #contact .asian-fanclub li a:hover {
@@ -403,15 +404,14 @@ button:focus {
 #contact .notable-news ul {
   list-style: none;
   line-height: 30px;
-  font-size: 1rem;
   text-align: left;
+  font-size: 1.1rem;
 }
 
 #contact .notable-news a {
   text-decoration: none;
   color: #ed7d33;
   font-style: italic;
-  font-size: 1rem;
 }
 
 #contact .notable-news a:hover {
@@ -419,8 +419,8 @@ button:focus {
 }
 
 #contact .notable-news p {
-  font-size: 0.9rem;
   color: #ffffff;
+  font-size: 1rem;
 }
 
 #contact .contact-info .asian-fanclub {
@@ -542,14 +542,19 @@ form {
   #contact .asian-title {
   font-size: 1.2rem;
   }
+  
+  #contact .notable-title {
+  font-size: 1.3rem;
+  }
 
   #contact h4 {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
   }
 
   #footer .footersocialmedia i {
     padding: 10px;
   }
+}
 
 @media (min-width: 576px) {
   #story article {
@@ -565,45 +570,87 @@ form {
   }
 }
 
+@media (min-width: 768px) {
+  #story article {
+    font-size: 1.1rem;
+  }
+
+  #story .shout {
+    font-size: 1.4rem;
+  }
+
+  #story a {
+    font-size: 1rem;
+  }
+
+  #tour h3 {
+    margin-top: 30px;
+  }
+
+  #lifeinpics .lifetext {
+    font-size: 1.1rem;
+  }
+
+  #lifeinpics p a {
+    font-size: 1.1rem;
+  }
+
+  #contact .asian-title {
+    font-size: 1.4rem;
+  }
+
+  #contact .notable-title {
+  font-size: 1.4rem;
+  }
+
+  #contact h4 {
+    font-size: 1.4rem;
+  }
+
+  #contact #fname {
+    width: 90%;
+  }
+
+  #contact #femail {
+    width: 90%;
+  }
+
+  #contact .form button {
+    width: 70%;
+  }
+}
+
 @media (min-width: 992px) {
   #story img {
     width: 80%;
     margin-top: 80px;
   }
 
+  #story h2 {
+    text-align: center;
+  }
+
   #story article {
-    text-align: justify;
-    font-size: 1.4rem;
+    text-align: center;
+    font-size: 1.2rem;
   }
   #story .shout {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   #story a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
-  #lifeinpics h3 {
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
+  #tour .table {
+    font-size: 1.2rem;
   }
 
-  .musictabletview img, .musicdesktopview img {
-    width: 100%;
-    max-width: 300px;
-  }
-
-  .musictabletview a, .musicdesktopview a {
-    font-size: 1.3rem;
-  }
-}
-
-@media (min-width: 1200px) {
   #lifeinpics .lifetext {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   #lifeinpics p a {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
