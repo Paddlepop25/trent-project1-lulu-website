@@ -105,11 +105,9 @@ Devices and browesers:
     * Safari
 * MacBook Air
     * Google Chrome
-    * Firefox
     * Safari
 * MacBook Pro
     * Google Chrome
-    * Firefox
     * Safari
 * MacPro
     * Google Chrome
@@ -130,6 +128,9 @@ A standard table size does not show up neatly for all screen sizes so I used boo
 All links will open in a new tab having used `target="_blank"` for each 'a tag.' They have been manually tested in each browser to ensure that they point to the correct destination. In cases where the links are related to ficticious information such as booking tour tickets for an Asian tour, the user is directed to Lulu's official [website](https://www.luluofficial.com/).
 
 The form's two inputs are required to be filled up, else an error message would show for each. This was achieved by adding a `required` field in the `input` tag of the form in the `index.html` form.
+
+#### Bugs ####
+The scroll button doesn't work well on my iphone and in the other browsers except for Chrome, and I searched for fixes on stackoverflow. I implemented the codes in my files but due to time contrainst, was unable to successfully get it working.
 
 ## Deployment ##
 Git was used for version control and [Github]((https://github.com)) hosts the repository for all commits
